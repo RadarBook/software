@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages for the Python Radar Toolkit
-This is the companion software for the book _Radar System Design, Simulation and Analysis with Python_ by Andy Harrison.
+This is the companion software for the book **_Radar System Design, Simulation and Analysis with Python_ by Andy Harrison**.
 
 You can use the [editor on GitHub](https://github.com/RadarBook/Python/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
