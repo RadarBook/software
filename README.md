@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages for the Python Radar Toolkit
+## Welcome to GitHub Pages for the Python Radar Toolkit ANDY HARRISON
 This is the companion software for the book **_Introduction to Radar Analysis with Python and MATLAB(R)_ by Andy Harrison**.
 
 You can use the [editor on GitHub](https://github.com/RadarBook/Python/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
