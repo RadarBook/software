@@ -1,9 +1,3 @@
----
-layout: page
-title: About
-permalink: /about/
----
-
 ## Welcome to GitHub Pages for Radar-Software
 This is the companion software for the book **_Introduction to Radar Analysis with Python and MATLAB(R)_ by Lee Andrew Harrison**.
 
