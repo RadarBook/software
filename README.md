@@ -1,7 +1,11 @@
 ## Welcome to GitHub Pages
 This is the companion software for the book **_Introduction to Radar with Python and MATLAB(R)_ by Lee A. Harrison**.
 
-### Markdown
+### Python
+
+The Python tools were developed with version 3.6.4 and the GUIs were developed with 5.10.0
+
+### MATLAB (R)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
