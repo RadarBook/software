@@ -1,7 +1,5 @@
-## Welcome to GitHub Pages for ...
-This is the companion software for the book **_Introduction to Radar Analysis with Python and MATLAB(R)_ by Lee A. Harrison**.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to GitHub Pages
+This is the companion software for the book **_Introduction to Radar with Python and MATLAB(R)_ by Lee A. Harrison**.
 
 ### Markdown
 
@@ -24,16 +22,6 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/RadarBook/Python/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
 
 Edit README.md [editor on GitHub](https://github.com/RadarBook/Python/edit/master/README.md)
 
