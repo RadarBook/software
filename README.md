@@ -22,7 +22,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-Edit README.md [editor on GitHub](https://github.com/RadarBook/Python/edit/master/README.md)
-
-Edit _config.yml [editor on GitHub](https://github.com/RadarBook/Python/edit/master/_config.yml)
