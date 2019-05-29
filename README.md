@@ -12,7 +12,7 @@ The Python tools were developed with version 3.6.4 and the GUIs were developed w
 > pip install pyqt5
 ```
 
-Then install the libraries and examples associated with the text by typing *pip install -e **mypath**/pyradar', where **mypath** is the path to the folder 'pyradar'.
+Then install the libraries and examples associated with the text by typing *pip install -e **mypath**/pyradar*, where **mypath** is the path to the folder 'pyradar'.
 
 ### MATLAB&copy
 
