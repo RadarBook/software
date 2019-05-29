@@ -16,22 +16,7 @@ Then install the libraries and examples associated with the text by typing *pip 
 
 ### MATLAB &copy;
 
-MATLAB®combines  a  desktop  environment  tuned  for  iterative  analysis  and  designprocesses  with  a  programming  language  that  expresses  matrix  and  array  mathematicsdirectly. It includes the Live Editor for creating scripts that combine code, output, andformatted text in an executable notebook [15]. The MATLAB®scripts associated withthis  text  were  developed  with  R2018a  and  do  not  require  any  additional  toolboxes.In  order  to  run  the  MATLAB®scripts  provided  with  this  text,  the  library  folder  andsubfolders must be added to the MATLAB®path as shown in Figure 1.7. Once thesefolders have been added to the path, the MATLAB®scripts may be executed from theeditor as shown in Figure 1.8 or from the command window by typing the name of thescript
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
+The MATLAB® scripts associated with this  text  were  developed  with  R2018a  and  do  not  require  any  additional  toolboxes. In  order  to  run  the  MATLAB® scripts  provided  with  this  text,  the  library  folder  and subfolders must be added to the MATLAB® path. Once these folders have been added, the MATLAB® scripts may be executed from the editor or from the command window by typing the name of thescript
 
 [Link](url) and ![Image](src)
 ```
