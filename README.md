@@ -1,5 +1,6 @@
 ## Welcome to GitHub Pages
-This is the companion software for **_Introduction to Radar with Python® and MATLAB®_ by Lee A. Harrison**.
+This is the companion software for 
+**_Introduction to Radar with Python® and MATLAB®_ by Lee A. Harrison**.
 
 ### Python®
 
@@ -10,9 +11,9 @@ The Python tools were developed with version 3.6.4 and the GUIs were developed w
 > pip install scipy
 > pip install matplotlib
 > pip install pyqt5
+> pip install -e **mypath**/pyradar
 ```
-
-Then install the libraries and examples associated with the text by typing *pip install -e **mypath**/pyradar*, where **mypath** is the path to the folder 'pyradar'.
+Where **mypath** is the path to the folder 'pyradar'.
 
 ### MATLAB®
 
