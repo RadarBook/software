@@ -13,7 +13,7 @@ The Python tools were developed with version 3.6.4 and the GUIs were developed w
 > pip install scipy
 > pip install matplotlib
 > pip install pyqt5
--> pip install -e *mypath*/pyradar
+> pip install -e mypath/pyradar
 ```
 Where **mypath** is the path to the folder 'pyradar'.
 
