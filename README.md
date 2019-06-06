@@ -1,5 +1,7 @@
 ## Welcome to GitHub Pages
+
 This is the companion software for 
+
 **_Introduction to Radar with Python® and MATLAB®_ by Lee A. Harrison**.
 
 ### Python®
