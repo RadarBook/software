@@ -1,7 +1,7 @@
 """
-Project: pyradar
+Project: RadarBook
 File: output_signal_to_noise_example.py
-Created by: Andy Harrison
+Created by: Lee A. Harrison
 On: 6/30/2018
 Created with: PyCharm
 """
@@ -85,7 +85,7 @@ class OutputSNR(QMainWindow, Ui_MainWindow):
         self.axes1.clear()
 
         # Display the results
-        self.axes1.plot(target_range / 1.0e3, 10.0 * log10(output_snr), 'k')
+        self.axes1.plot(target_range / 1.0e3, 10.0 * log10(output_snr), '')
 
         # Set the plot title and labels
         self.axes1.set_title('Output Signal to Noise Ratio', size=14)
@@ -103,8 +103,8 @@ class OutputSNR(QMainWindow, Ui_MainWindow):
 
 
 def start():
-    form = OutputSNR()        # Set the form
-    form.show()               # Show the form
+    form = OutputSNR()  # Set the form
+    form.show()         # Show the form
 
 
 def main():

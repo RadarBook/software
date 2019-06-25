@@ -1,7 +1,7 @@
 """
-Project: pyradar
+Project: RadarBook
 File: radar_range.py
-Created by: Andy Harrison
+Created by: Lee A. Harrison
 On: 1/3/2018
 Created with: PyCharm
 """
@@ -16,7 +16,6 @@ def power_density(peak_power, antenna_gain, target_range):
     :param target_range: The target distance from the transmitting antenna (m).
     :return: The power density at the target (W/m^2).
     """
-
     return peak_power * antenna_gain / (4.0 * pi * target_range ** 2)
 
 
@@ -46,7 +45,6 @@ def minimum_detectable_signal(system_temperature, bandwidth, noise_factor, losse
     :param signal_to_noise: The minimum output signal to noise ratio.
     :return: The minimum detectable signal (W).
     """
-
     return k * system_temperature * bandwidth * noise_factor * losses * signal_to_noise
 
 
@@ -65,7 +63,6 @@ def maximum_range(system_temperature, bandwidth, noise_factor, losses, signal_to
     :param target_rcs: The target radar cross section (m^2).
     :return: The maximum range at which a target can be detected (m).
     """
-
     # First, calculate the minimum detectable signal
     min_signal = minimum_detectable_signal(system_temperature, bandwidth, noise_factor, losses, signal_to_noise)
 
@@ -88,7 +85,6 @@ def output_snr(system_temperature, bandwidth, noise_factor, losses, peak_power, 
     :param target_range: The target distance from the transmitting antenna (m).
     :return: The signal to noise ratio at the output of the receiver.
     """
-
     return (peak_power * antenna_gain ** 2 * (c / frequency) ** 2 * target_rcs) / \
            ((4.0 * pi) ** 3 * k * system_temperature * bandwidth * noise_factor * losses * target_range ** 4)
 

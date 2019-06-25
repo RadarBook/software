@@ -1,12 +1,5 @@
 %% Initial repo test
-% Created by: Andy Harrison
+% Created by: Lee A. Harrison
 % On: 6/18/2018
 
 clear, clc
-
-% Plot
-figure
-plot(linspace(1, 100))
-xlabel('x')
-ylabel('y')
-title('Test')

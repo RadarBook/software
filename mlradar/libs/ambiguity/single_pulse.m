@@ -1,0 +1,18 @@
+function [ ambiguity ] = single_pulse(time_delay, doppler_frequency, pulse_width)
+%% Calculate the ambiguity function for a continuous wave single pulse.
+%     :param time_delay: The time delay for the ambiguity function (seconds)
+%     :param doppler_frequency: The Doppler frequency for the ambiguity function (Hz)
+%     :param pulse_width: The pulse width (seconds)
+%     :return: The ambiguity function for a CW pulse (unitless)
+%
+%     Created by: Lee A. Harrison
+%     On: 4/27/2019
+
+ambiguity = abs((1.0 - abs(time_delay / pulse_width)) .*...
+sinc(doppler_frequency .* (pulse_width - abs(time_delay)))).^2;
+
+if length(time_delay) == 1 && abs(time_delay) > pulse_width
+    ambiguity(:) = 0;
+else
+    ambiguity(abs(time_delay) > pulse_width) = 0;
+end
