@@ -1,5 +1,5 @@
 # Cover art and ordering information
-![GitHub Logo](/docs/AHlogo.png)
+![AH Logo](radarbook.github.com/software/docs/AHlogo.png)
 
 ## Python®
 
