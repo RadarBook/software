@@ -1,3 +1,6 @@
+# Cover art and ordering information
+![GitHub Logo](AHlogo.png)
+
 ## Python®
 
 The Python tools were developed with version 3.6.4 and the GUIs were developed with Qt 5.10.0.  The  tool  suite  makes  use  of  packages  including  SciPy,  NumPy and  Matplotlib. To install Python® and the necessary packages, begin by navigating to [Python®](http://python.org) and downloading the installer for the operating system of choice. Launch the Python installer and follow the onscreen instructions. Once the installation iscomplete, ensure the following packages are installed by typing the following commands at the command prompt:
