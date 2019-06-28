@@ -1,5 +1,5 @@
 # Cover art and ordering information
-![GitHub Logo](AHlogo.png)
+![GitHub Logo](/docs/AHlogo.png)
 
 ## Python®
 
