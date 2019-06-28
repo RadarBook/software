@@ -118,7 +118,22 @@
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
             <p class="staticrypt-title">Introduction to Radar using Python and MATLAB</p>
-            <p><p><strong>Enter access code from textbook</strong></p>
+            <p><h2>Python&reg;</h2>
+
+<p>The Python tools were developed with version 3.6.4 and the GUIs were developed with Qt 5.10.0. The tool suite makes use of packages including SciPy, NumPy and Matplotlib. To install Python&reg; and the necessary packages, begin by navigating to&nbsp;<a href="http://python.org/">Python&reg;</a>&nbsp;and downloading the installer for the operating system of choice. Launch the Python installer and follow the onscreen instructions. Once the installation iscomplete, ensure the following packages are installed by typing the following commands at the command prompt:</p>
+
+<pre>
+&gt; pip install numpy
+&gt; pip install scipy
+&gt; pip install matplotlib
+&gt; pip install pyqt5
+&gt; pip install -e mypath/pyradar</pre>
+
+<p>Where&nbsp;<strong>mypath</strong>&nbsp;is the path to the folder &#39;pyradar&#39;.</p>
+
+<h2>MATLAB&reg;</h2>
+
+<p>The MATLAB scripts associated with this text were developed with R2018a and do not require any additional toolboxes. The folder structure for the MATLAB and Python scripts is identical. In order to run the MATLAB scripts provided with this text, the library folder and subfolders must be added to the MATLAB path. Once these folders have been added, the MATLAB scripts may be executed from the editor or from the command window by typing the name of the script. For more information on MATLAB&reg; visit&nbsp;<a href="https://www.mathworks.com/">MathWorks&reg;</a>.</p>
 </p>
         </div>
 
@@ -128,7 +143,7 @@
             <input id="staticrypt-password"
                    type="password"
                    name="password"
-                   placeholder="password"
+                   placeholder="passphrase"
                    autofocus/>
 
             <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT"/>
@@ -6140,7 +6155,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = '94571c47062b7c175971fb2f1d9443c4b361898cf325174efc9b52315f5d5c67U2FsdGVkX18s+8OBNKpQKPmgrh9UleuxyjphruEcL6ZqF4izkFwTIBuBL6yII+2H9JYS2+q+L9RQvA3lQPbT1B7CTRJHw08MXeHTGi/R7E4gX5l76UHtzrj6KIcz8+Is1P9c5kcncSUi/lnUaxfX4ihGRbjkwE0vh8CDdOR+aG9PMaa47vLPuB/h2oITeDFj',
+            encryptedMsg = 'dcdf642324a8edb7900323d9f428ed25c3558275ac2443431eb8fa61d158e654U2FsdGVkX1+t9VJgTg1OxeG0V2o7HXIGhoGCwTy0m1WuZ24Mx5/dmlJdUnmhccR5eswVdGHXnRLU34PmSRF0wZcKTi7Oi6IjuBOukCVs1BxQ5Ly0Ua5kyVR4Q7Uc7+oNOKhLPNGQn251+E3tpja7feWH05A4BHWAI/RNLcLfDGbY3O1z9z6skONfl0rPQDZ04T/BcCXriycGG1X+dl1Zuw==',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
