@@ -118,7 +118,7 @@
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
             <p class="staticrypt-title">Introduction to Radar using Python and MATLAB</p>
-            <p><p><strong>Enter password from textbook</strong></p>
+            <p><p><strong>Enter access code from textbook</strong></p>
 </p>
         </div>
 
@@ -131,7 +131,7 @@
                    placeholder="passphrase"
                    autofocus/>
 
-            <input type="submit" class="staticrypt-decrypt-button" value="Submit"/>
+            <input type="submit" class="staticrypt-decrypt-button" value="DECRYPT"/>
         </form>
     </div>
 
@@ -6140,7 +6140,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = 'd6257f049f58d944f839946c700d72cd0de4a20bbf32b7b4a197b84d894fb289U2FsdGVkX1+RUTjPakx6lABGTP4unl1uwTBuo9EsMHTW6JrA004M/njP6bImKPgqVosc8+HfXQ5gMRSs+CY4X3RHFVo+FGaPtRHgu8Uo+4+9IrHEs2rHC0EL4d925/cx34UPnzQVcS4P0V2iBkAnnaUcDgYo5k38EjQIXY5utco=',
+            encryptedMsg = 'e5399d55c259be46628f98aa185291ea07b3c3f62d75f3b895394ac136c8e468U2FsdGVkX1+kr272OS439tXPge6v9wkPeW4oUhyvrhP+63+Q9HRWJo5G7MBT1LRw1N3S/yHc1h9bt8jvNCYBINmVPViugl2NAbuMEVhSsQDNuxDsf4I6GwbOdMzWfTrqQ9qmaC9QysoUijVSH5t+0ZMdTCik0KT3SCHkgphpEYCrZA4SXoIkBYO1kMPsTB/c',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
