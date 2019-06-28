@@ -2,7 +2,7 @@
 <html class="staticrypt-html">
 <head>
     <meta charset="utf-8">
-    <title>Protected Page</title>
+    <title>Introduction to Radar using Python and MATLAB</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- do not cache this page -->
@@ -117,8 +117,9 @@
 <div class="staticrypt-page">
     <div class="staticrypt-form">
         <div class="staticrypt-instructions">
-            <p class="staticrypt-title">Protected Page</p>
-            <p></p>
+            <p class="staticrypt-title">Introduction to Radar using Python and MATLAB</p>
+            <p><p>Enter Password</p>
+</p>
         </div>
 
         <hr class="staticrypt-hr">
@@ -6139,7 +6140,7 @@
         e.preventDefault();
 
         var passphrase = document.getElementById('staticrypt-password').value,
-            encryptedMsg = '9cb18ea083af5f7a1b9fedf90a6966cc31cd24513a4580ae5ac75f06d639636eU2FsdGVkX1++JZO7y0oXnQTzP0UyyXwQUnGnI1L5+GpiSdn4ClhodxDh07TUM4iK8lecLeIEDlPY0FMtNXAhcICmbdR08iGdgPtBSCtiD04DGsxuN6d0OX6tYrALtXKlkzgM9LLuFSYApY0xml39siAu6CCasHJihMtLdPf3MYLWOe5F4dZfHvYA8X0bv716',
+            encryptedMsg = '74ff119e3985f949543334d7859699586caf21e70a7fcaa9c51082d8ee661998U2FsdGVkX1+bBxi7vzK+7CKbCOIa4jwGuhQbinND0RTjbiCF8d+922Y+1yn/9Uoe1jWLtA/2Rdn/5jiKEFk3Pi1E/VrnFhAmRDSa4I/PtFQI1qN3cFzE6nWapL8K3fR+aUrtNiolkL8lmEzk/i5WFOilt6yMxZZuz//WJuhs3/o=',
             encryptedHMAC = encryptedMsg.substring(0, 64),
             encryptedHTML = encryptedMsg.substring(64),
             decryptedHMAC = CryptoJS.HmacSHA256(encryptedHTML, CryptoJS.SHA256(passphrase).toString()).toString();
