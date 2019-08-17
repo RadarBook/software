@@ -2,13 +2,12 @@
 
 ## Artech House Publisher
 ISBN: 9781630815974 
+
 Copyright: 2019
 
 [Order Now](https://us.artechhouse.com/Introduction-to-Radar-Using-Python-and-MATLAB-P2051.aspx)
 
-![Book_logo](book_cover.jpg)
-
-![AH Logo](AHLogo.png)
+![Book_logo](book_cover.jpg)    ![AH Logo](AHLogo.png)
 
 ## Python®
 
