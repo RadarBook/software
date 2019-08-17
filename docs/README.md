@@ -1,4 +1,7 @@
-# Need to add cover art and ordering information
+# Welcome
+![Book_logo](book_cover.jpg)
+
+# Publisher
 ![AH Logo](AHLogo.png)
 
 ## Python®
