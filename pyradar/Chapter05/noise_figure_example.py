@@ -11,7 +11,7 @@ from Libs.receivers import noise_figure
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
-class ApparentRange(QMainWindow, Ui_MainWindow):
+class NoiseFigure(QMainWindow, Ui_MainWindow):
     def __init__(self, parent):
 
         super(self.__class__, self).__init__(parent)
@@ -37,7 +37,7 @@ class ApparentRange(QMainWindow, Ui_MainWindow):
         gain_db = [float(g) for g in gain]
         noise_figure_db = [float(nf) for nf in noise_figure_f]
 
-        # Calculate the true and apparent ranges
+        # Calculate the total noise figure
         total_noise_figure = noise_figure.total_noise_figure(gain_db, noise_figure_db)
 
         # Display the results in the boxes
@@ -45,13 +45,13 @@ class ApparentRange(QMainWindow, Ui_MainWindow):
 
 
 def start(self):
-    form = ApparentRange(self)  # Set the form
+    form = NoiseFigure(self)  # Set the form
     form.show()                 # Show the form
 
 
 def main():
     app = QApplication(sys.argv)        # A new instance of QApplication
-    form = ApparentRange(None)          # Set the form
+    form = NoiseFIgure(None)            # Set the form
     form.show()                         # Show the form
     app.exec_()                         # Execute the app
 
