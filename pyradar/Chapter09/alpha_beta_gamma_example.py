@@ -50,10 +50,7 @@ class AlphaBetaGamma(QMainWindow, Ui_MainWindow):
         Update the figure when the user changes and input value.
         :return:
         """
-        # Number of updates
-        number_of_updates = 1000
-
-        # Get the parameters from the form
+         # Get the parameters from the form
         time = self.time.text().split(',')
         start = float(time[0])
         end = float(time[1])
