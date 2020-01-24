@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="541d9ee0-6f65-4936-9587-0ec6ae3ecda7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/hertzian_dipole.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/hertzian_dipole.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/loop_gain.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/loop_gain.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/maximum_detection_range.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/maximum_detection_range.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/minimum_detectable_signal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/minimum_detectable_signal.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise_bistatic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise_bistatic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise_search.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/output_signal_to_noise_search.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/ovals_of_cassini.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/ovals_of_cassini.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/power_aperture.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/power_aperture.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/power_at_radar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/power_at_radar.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/power_at_radar_bistatic.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/power_at_radar_bistatic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter04/power_density.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter04/power_density.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter11/burn_through_range.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter11/burn_through_range.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter11/crossover_range.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter11/crossover_range.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter11/delay_line.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter11/delay_line.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter11/jammer_to_signal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter11/jammer_to_signal.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter/Chapter06/binary_integration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter06/binary_integration.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jupyter/Chapter06/cfar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter06/cfar.ipynb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,7 +13,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -49,6 +46,30 @@
             <path>
               <item name="software" type="b2602c69:ProjectViewProjectNode" />
               <item name="software" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="software" type="b2602c69:ProjectViewProjectNode" />
+              <item name="software" type="462c0819:PsiDirectoryNode" />
+              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
+              <item name="Libs" type="462c0819:PsiDirectoryNode" />
+              <item name="detection" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -171,6 +192,54 @@
           <folding>
             <element signature="e#118#128#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/coherent_integration_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/coherent_integration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-62" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/gaussian_noise_pd_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+          <folding>
+            <element signature="e#127#137#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/non_coherent_integration_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <folding>
+            <element signature="e#134#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/optimum_binary_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="79" column="43" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="79" selection-end-column="43" />
+          <folding>
+            <element signature="e#124#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
         </state>
       </provider>
     </entry>
