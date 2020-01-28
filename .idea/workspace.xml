@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541d9ee0-6f65-4936-9587-0ec6ae3ecda7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter06/binary_integration.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter06/binary_integration.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jupyter/Chapter06/cfar.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/jupyter/Chapter06/cfar.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="541d9ee0-6f65-4936-9587-0ec6ae3ecda7" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,17 +9,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,20 +42,7 @@
               <item name="software" type="b2602c69:ProjectViewProjectNode" />
               <item name="software" type="462c0819:PsiDirectoryNode" />
               <item name="pyradar" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter06" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
-              <item name="Libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
-              <item name="Libs" type="462c0819:PsiDirectoryNode" />
-              <item name="detection" type="462c0819:PsiDirectoryNode" />
+              <item name="Chapter09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -137,7 +110,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -241,6 +214,11 @@
         <state relative-caret-position="75">
           <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_gamma_example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1125" />
       </provider>
     </entry>
   </component>
