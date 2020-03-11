@@ -97,7 +97,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         frequency = linspace(start_frequency, start_frequency + bandwidth, nf)
 
         # Set the length of the FFT
-        fft_length = 8 * next_fast_len(nf)
+        fft_length = next_fast_len(4 * nf)
 
         # Set up the aperture positions
         sensor_x = range_center * cos(radians(az))

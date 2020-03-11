@@ -145,7 +145,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         nf = len(frequency)
         na = len(sensor_az)
 
-        fft_length = 4 * next_fast_len(len(frequency))
+        fft_length = next_fast_len(4 * len(frequency))
 
         # Get the selected window from the form
         window_type = self.window_type.currentText()
