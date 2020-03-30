@@ -30,7 +30,7 @@ from Chapter08 import barker_ambiguity_example, frank_ambiguity_example, lfm_tra
 from Chapter09 import alpha_beta_example, alpha_beta_gamma_example, kalman_ca_example, kalman_cv_example, \
     kalman_epsilon_example, kalman_sigma_example
 from Chapter10 import back_projection_example, back_projection_3d_example, back_projection_backhoe_example, \
-    back_projection_cv_example
+    back_projection_cv_example, stripmap_example, stripmap_cv_example
 from Chapter11 import burnthrough_range_example, crossover_range_example, delay_line_example, jammer_to_signal_example
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
@@ -229,6 +229,10 @@ class RadarBook(QMainWindow, Ui_MainWindow):
             back_projection_3d_example.start()
         elif tool == 'Back Projection 3D Backhoe':
             back_projection_backhoe_example.start()
+        elif tool == 'Stripmap 2D Points':
+            stripmap_example.start()
+        elif tool == 'Stripmap 2D Vehicles':
+            stripmap_cv_example.start()
 
         # Chapter 11
         elif tool == 'Jammer to Signal':

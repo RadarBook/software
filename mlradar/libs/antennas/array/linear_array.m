@@ -104,5 +104,76 @@ classdef linear_array
             end
             
         end
+        
+        function af = array_factor_un(obj)
+            % Calculate the array factor for a linear binomial excited array.
+            % :param window_type: The string name of the window.
+            % :param side_lobe_level: The sidelobe level for Tschebyscheff window (dB).
+            % :param number_of_elements: The number of elements in the array.
+            % :param scan_angle: The angle to which the main beam is scanned (rad).
+            % :param element_spacing: The distance between elements.
+            % :param frequency: The operating frequency (Hz).
+            % :param theta: The angle at which to evaluate the array factor (rad).
+            % :return: The array factor as a function of angle.
+            
+            % Speed of light
+            c = 299792458;
+            
+            % Calculate the wavenumber
+            k = 2.0 * pi * obj.frequency / c;
+            
+            % Calculate the phase
+            psi = k * obj.element_spacing * (cos(obj.theta) - cos(obj.scan_angle));
+            
+            % Calculate the coefficients
+            if strcmp(obj.window_type, 'Uniform')
+                coefficients = ones(obj.number_of_elements, 1);
+            elseif strcmp(obj.window_type, 'Binomial')
+                clear coefficients
+                for k = 0:obj.number_of_elements-1
+                    coefficients(k+1) = nchoosek(obj.number_of_elements, k);
+                end
+                coefficients = coefficients';
+            elseif strcmp(obj.window_type, 'Tschebyscheff')
+                coefficients = tschebyscheff_coefficients(obj.number_of_elements, obj.side_lobe_level)';
+            elseif strcmp(obj.window_type, 'Hanning')
+                k = 0:obj.number_of_elements-1;
+                coefficients = 0.5 - 0.5 * cos(2.0 * pi * k' / (obj.number_of_elements - 1));
+            elseif strcmp(obj.window_type, 'Hamming')
+                k = 0:obj.number_of_elements-1;
+                coefficients = 0.54 - 0.46 * cos(2.0 * pi * k' / (obj.number_of_elements - 1));
+            end
+            
+            % Calculate the offset for even/odd
+            offset = floor(obj.number_of_elements / 2);
+            
+            if ~strcmp(obj.window_type, 'Tschebyscheff')
+                
+                % Odd case
+                if mod(obj.number_of_elements,2) == 1
+                    coefficients = circshift(coefficients, offset + 1);
+                    coefficients(1) = 0.5 * coefficients(1);
+                    af = zeros(1, numel(obj.theta));
+                    for i = 1:offset + 1
+                        af = af + coefficients(i) * cos((i-1) * psi);
+                    end
+                    % Even case
+                else
+                    coefficients = circshift(coefficients, offset);
+                    af = zeros(numel(obj.theta), 1);
+                    for i = 1:offset
+                        af = af + coefficients(i) * cos((i - 0.5) * psi);
+                    end
+                end
+                
+            else
+                
+                af = 0;
+                for n = 1:length(coefficients)
+                    af = af + coefficients(n).*cos((n-1)*psi);
+                end
+            end
+            
+        end
     end
 end

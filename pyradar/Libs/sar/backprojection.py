@@ -6,7 +6,7 @@ One: 2/9/2019
 Created with: PyCharm
 """
 from scipy.constants import c, pi
-from scipy import sqrt, linspace, zeros_like, exp, sin, cos
+from scipy import sqrt, linspace, zeros_like, exp, sin, cos, ones
 from scipy.interpolate import interp1d
 from scipy.fftpack import ifft, fftshift
 
@@ -41,6 +41,10 @@ def reconstruct(signal, sensor_x, sensor_y, sensor_z, range_center, x_image, y_i
     # Loop over all pulses in the data
     term = 1j * 4.0 * pi * frequency[0] / c
 
+    # To work with stripmap
+    if not isinstance(range_center, list):
+        range_center *= ones(len(sensor_x))
+
     index = 0
     for xs, ys, zs in zip(sensor_x, sensor_y, sensor_z):
 
@@ -51,7 +55,7 @@ def reconstruct(signal, sensor_x, sensor_y, sensor_z, range_center, x_image, y_i
         f = interp1d(range_window, range_profile, kind='linear', bounds_error=False, fill_value=0.0)
 
         # Calculate the range to each pixel
-        range_image = sqrt((xs - x_image) ** 2 + (ys - y_image) ** 2 + (zs - z_image ** 2)) - range_center
+        range_image = sqrt((xs - x_image) ** 2 + (ys - y_image) ** 2 + (zs - z_image) ** 2) - range_center[index]
 
         # Interpolate the range profile onto the image grid and multiply by the range phase
         # For large scenes, should check the range window and index

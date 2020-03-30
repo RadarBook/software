@@ -17,14 +17,14 @@ ny = 200;
 
 % Set the azimuth span (degrees)
 az_start = 0;
-az_end = 90;
+az_end = 6;
 
 % Set the window type and dynamic range
 window_type = 'None';
 dynamic_range = 50; % dB
 
 % Load the selected target
-load('Camry_el30.0000.mat');
+load('Jeep99_el30.0000.mat');
 
 % Set the polarization
 signal = data.vv;

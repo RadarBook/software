@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'Chapter01\RadarBook.ui'
+# Form implementation generated from reading ui file 'RadarBook.ui'
 #
 # Created by: PyQt5 UI code generator 5.10
 #
@@ -143,6 +143,8 @@ class Ui_MainWindow(object):
         item_1 = QtWidgets.QTreeWidgetItem(item_0)
         item_1 = QtWidgets.QTreeWidgetItem(item_0)
         item_1 = QtWidgets.QTreeWidgetItem(item_0)
+        item_1 = QtWidgets.QTreeWidgetItem(item_0)
+        item_1 = QtWidgets.QTreeWidgetItem(item_0)
         item_0 = QtWidgets.QTreeWidgetItem(self.toolsTree)
         item_1 = QtWidgets.QTreeWidgetItem(item_0)
         item_1 = QtWidgets.QTreeWidgetItem(item_0)
@@ -262,6 +264,8 @@ class Ui_MainWindow(object):
         self.toolsTree.topLevelItem(9).child(1).setText(0, _translate("MainWindow", "Back Projection 2D Vehicles"))
         self.toolsTree.topLevelItem(9).child(2).setText(0, _translate("MainWindow", "Back Projection 3D Points"))
         self.toolsTree.topLevelItem(9).child(3).setText(0, _translate("MainWindow", "Back Projection 3D Backhoe"))
+        self.toolsTree.topLevelItem(9).child(4).setText(0, _translate("MainWindow", "Stripmap 2D Points"))
+        self.toolsTree.topLevelItem(9).child(5).setText(0, _translate("MainWindow", "Stripmap 2D Vehicles"))
         self.toolsTree.topLevelItem(10).setText(0, _translate("MainWindow", "Chapter 11 - Countermeasures"))
         self.toolsTree.topLevelItem(10).child(0).setText(0, _translate("MainWindow", "Jammer to Signal"))
         self.toolsTree.topLevelItem(10).child(1).setText(0, _translate("MainWindow", "Crossover Range"))
