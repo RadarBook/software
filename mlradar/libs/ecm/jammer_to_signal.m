@@ -16,6 +16,10 @@ function [ js ] = jammer_to_signal(peak_power, antenna_gain, target_rcs, ...
 %
 %     Created by: Lee A. Harrison
 %     On: 5/25/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Check the bandwidth
 if jammer_bandwidth > radar_bandwidth

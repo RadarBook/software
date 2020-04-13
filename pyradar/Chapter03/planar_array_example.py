@@ -4,6 +4,7 @@ File: planar_array_example.py
 Created by: Lee A. Harrison
 On: 8/1/2018
 Created with: PyCharm
+
 """
 import sys
 from Chapter03.ui.PlanarArray_ui import Ui_MainWindow

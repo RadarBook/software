@@ -8,6 +8,10 @@ function pw = plane_wave_parameters(frequency, relative_permittivity, relative_p
 %
 % Created by: Lee A. Harrison
 % On: 6/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 mu_0 = 4 * pi * 1e-7;
 epsilon_0 = 8.854187817620389e-12;

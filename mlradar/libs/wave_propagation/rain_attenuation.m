@@ -8,6 +8,10 @@ function attenuation = rain_attenuation(frequency, rain_rate, elevation_angle, p
 %
 % Created by: Lee A. Harrison
 % On: 6/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Table 2.3 Coefficients for calculating k_h
 a_kh = [-5.33980, -0.35351, -0.23789, -0.94158];

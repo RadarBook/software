@@ -4,6 +4,10 @@ File: sensitivity_time_control_example.py
 Created by: Lee A. Harrison
 On: 9/18/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter05.ui.STC_ui import Ui_MainWindow

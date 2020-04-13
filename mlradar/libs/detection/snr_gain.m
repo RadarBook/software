@@ -8,6 +8,10 @@ function [ snr ] = snr_gain(probability_of_detection, probability_of_false_alarm
 %     
 %     Created by: Lee A. Harrison
 %     On: 10/11/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
     gain = 6.79 * (1.0 + 0.235 * probability_of_detection) * (1.0 + log10(1.0/probability_of_false_alarm) / 46.6)...
            .* log10(number_of_pulses) .* (1.0 - 0.14 * log10(number_of_pulses) + 0.01831 * log10(number_of_pulses) .^ 2);

@@ -8,6 +8,10 @@ function [ pd ] = coherent_integration(signal_to_noise, number_of_pulses, probab
 
 %     Created by: Lee A. Harrison
 %     On: 10/11/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 pd = zeros(1, numel(signal_to_noise));
 

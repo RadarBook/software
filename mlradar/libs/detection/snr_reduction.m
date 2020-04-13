@@ -6,6 +6,10 @@ function [ snr ] = snr_reduction(number_of_pulses, signal_to_noise_nci)
 % 
 %     Created by: Lee A. Harrison
 %     On: 10/11/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
     
     snr = 10.0 * log10(signal_to_noise_nci ./ (2.0 * number_of_pulses) + ...
            sqrt(signal_to_noise_nci .^ 2 ./ (4.0 * number_of_pulses .^ 2) + signal_to_noise_nci ./ number_of_pulses));

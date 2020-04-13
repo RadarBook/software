@@ -4,6 +4,10 @@ File: circular_loop.py
 Created by: Lee A. Harrison
 On: 1/22/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c, pi, mu_0, epsilon_0
 from scipy import sin, cos, exp, sqrt, linspace, finfo

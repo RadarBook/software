@@ -9,6 +9,10 @@ function pr = power_at_radar(peak_power, antenna_gain, target_range, frequency, 
 %
 % Created by: Lee A. Harrison
 % On: 6/21/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Calculate the wavelength
 wavelength = 299792458 / frequency;

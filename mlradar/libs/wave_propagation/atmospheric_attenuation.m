@@ -7,6 +7,10 @@ function attenuation = atmospheric_attenuation(frequency, temperature, dry_air_p
 %
 % Created by: Lee A. Harrison
 % On: 6/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 %% Read in the spectral data for oxygen
 fid = fopen('oxygen_spectral_attenuation.txt', 'r');

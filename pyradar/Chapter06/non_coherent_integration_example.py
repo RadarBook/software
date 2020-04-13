@@ -4,6 +4,10 @@ File: non_coherent_integration_example.py
 Created by: Lee A. Harrison
 On: 10/11/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter06.ui.NonCoherentPd_ui import Ui_MainWindow

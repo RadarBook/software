@@ -10,6 +10,10 @@ function [ rcs_tm, rcs_te ] = rectangular_plate(frequency, width, length, incide
 
 %     Created by: Lee A. Harrison
 %     On: 1/17/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Speed of light
 c = 299792458;

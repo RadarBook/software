@@ -9,6 +9,10 @@ function [ ambiguity ] = pulse_train( time_delay, doppler_frequency, pulse_width
 %
 %     Created by: Lee A. Harrison
 %     On: 4/27/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 ambiguity = 0;
 

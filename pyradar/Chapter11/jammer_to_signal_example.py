@@ -4,6 +4,10 @@ File: jammer_to_signal_example.py
 Created by: Lee A. Harrison
 On: 5/21/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter11.ui.JSR_ui import Ui_MainWindow

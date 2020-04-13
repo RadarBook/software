@@ -1,18 +1,417 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="541d9ee0-6f65-4936-9587-0ec6ae3ecda7" name="Default Changelist" comment="" />
+    <list default="true" id="541d9ee0-6f65-4936-9587-0ec6ae3ecda7" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/jupyter/Chapter01/jupyter.ipynb" afterPath="$PROJECT_DIR$/jupyter/Chapter01/jupyter.ipynb" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter01/initial_test.m" afterPath="$PROJECT_DIR$/mlradar/Chapter01/initial_test.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/apparent_elevation_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/apparent_elevation_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/apparent_range_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/apparent_range_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/atmosphere_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/atmosphere_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/beam_spreading_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/beam_spreading_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/cloud_fog_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/cloud_fog_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/diffraction_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/diffraction_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/ducting_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/ducting_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/plane_waves_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/plane_waves_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/rain_attenuation_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/rain_attenuation_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/reflection_transmission_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/reflection_transmission_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter02/vegetation_attenuation_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter02/vegetation_attenuation_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/circular_aperture_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/circular_aperture_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/circular_array_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/circular_array_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/horn_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/horn_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/linear_array_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/linear_array_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/linear_wire_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/linear_wire_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/loop_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/loop_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/planar_array_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/planar_array_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter03/rectangular_aperture_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter03/rectangular_aperture_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/hertzian_dipole_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/hertzian_dipole_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/loop_gain_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/loop_gain_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/maximum_detection_range_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/maximum_detection_range_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/minimum_detectable_signal_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/minimum_detectable_signal_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/ouput_signal_to_noise_bistatic_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/ouput_signal_to_noise_bistatic_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/output_signal_to_noise_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/output_signal_to_noise_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/output_signal_to_noise_search_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/output_signal_to_noise_search_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/ovals_of_cassini_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/ovals_of_cassini_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/power_aperture_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/power_aperture_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/power_at_radar_bistatic_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/power_at_radar_bistatic_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/power_at_radar_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/power_at_radar_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter04/power_density_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter04/power_density_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/adc_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/adc_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/coherent_detector_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/coherent_detector_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/envelope_detector_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/envelope_detector_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/low_pass_filter_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/low_pass_filter_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/noise_figure_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/noise_figure_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/resolution_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/resolution_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter05/sensitivity_time_control_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter05/sensitivity_time_control_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/binary_integration_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/binary_integration_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/cfar_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/cfar_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/coherent_integration_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/coherent_integration_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/gaussian_noise_pd_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/gaussian_noise_pd_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/non_coherent_integration_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/non_coherent_integration_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/optimum_binary_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/optimum_binary_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/probability_distributions_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/probability_distributions_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/rayleigh_noise_pd_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/rayleigh_noise_pd_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/shnidman_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/shnidman_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter06/single_pulse_snr_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter06/single_pulse_snr_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/fdtd_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/fdtd_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/frustum_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/frustum_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/infinite_cylinder_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/infinite_cylinder_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/infinite_cylinder_oblique_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/infinite_cylinder_oblique_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/infinite_strip_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/infinite_strip_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/po_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/po_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/rectangular_plate_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/rectangular_plate_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/right_circular_cone_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/right_circular_cone_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/rounded_nose_cone_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/rounded_nose_cone_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter07/stratified_sphere_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter07/stratified_sphere_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/PRN_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/PRN_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/barker_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/barker_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/frank_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/frank_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/lfm_pulse_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/lfm_pulse_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/lfm_train_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/lfm_train_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/matched_filter_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/matched_filter_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/pulse_train_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/pulse_train_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/single_pulse_ambiguity_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/single_pulse_ambiguity_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/stepped_frequency_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/stepped_frequency_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter08/stretch_processor_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter08/stretch_processor_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/alpha_beta_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/alpha_beta_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/alpha_beta_gamma_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/alpha_beta_gamma_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/kalman_ca_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/kalman_ca_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/kalman_cv_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/kalman_cv_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/kalman_epsilon_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/kalman_epsilon_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter09/kalman_sigma_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter09/kalman_sigma_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_3d_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_3d_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_backhoe_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_backhoe_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_cv_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_cv_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/back_projection_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/stripmap_cv_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/stripmap_cv_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter10/stripmap_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter10/stripmap_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter11/burn_through_range_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter11/burn_through_range_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter11/crossover_range_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter11/crossover_range_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter11/delay_line_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter11/delay_line_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/Chapter11/jammer_to_signal_example.m" afterPath="$PROJECT_DIR$/mlradar/Chapter11/jammer_to_signal_example.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/hamming.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/hamming.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/hanning.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/hanning.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/kaiser.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/kaiser.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/lfm_pulse.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/lfm_pulse.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/lfm_train.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/lfm_train.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/mls.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/mls.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/n_phase_code.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/n_phase_code.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/phase_coded_waveform.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/phase_coded_waveform.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/pulse_train.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/pulse_train.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ambiguity/single_pulse.m" afterPath="$PROJECT_DIR$/mlradar/libs/ambiguity/single_pulse.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/circular_te11_ground_plane.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/circular_te11_ground_plane.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/circular_uniform_ground_plane.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/circular_uniform_ground_plane.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_te10_ground_plane.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_te10_ground_plane.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_uniform_free_space.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_uniform_free_space.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_uniform_ground_plane.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/aperture/rectangular_uniform_ground_plane.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/array/circular_array.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/array/circular_array.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/array/linear_array.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/array/linear_array.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/array/planar_array.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/array/planar_array.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/array/tschebyscheff_coefficients.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/array/tschebyscheff_coefficients.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/horn/eplane_sectoral_horn.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/horn/eplane_sectoral_horn.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/horn/hplane_sectoral_horn.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/horn/hplane_sectoral_horn.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/horn/pyramidal_horn.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/horn/pyramidal_horn.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/finite_length_dipole.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/finite_length_dipole.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/infinitesimal_dipole.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/infinitesimal_dipole.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/small_dipole.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/linear_wire/small_dipole.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/loop/circular_loop.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/loop/circular_loop.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/antennas/loop/small_loop.m" afterPath="$PROJECT_DIR$/mlradar/libs/antennas/loop/small_loop.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/Q.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/Q.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/binary_integration.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/binary_integration.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/cfar.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/cfar.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/coherent_integration.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/coherent_integration.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/non_coherent_integration.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/non_coherent_integration.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/pd_gaussian.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/pd_gaussian.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/pd_rayleigh.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/pd_rayleigh.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/shnidman.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/shnidman.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/single_pulse_snr.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/single_pulse_snr.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/single_pulse_snr_swerling.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/single_pulse_snr_swerling.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/snr_gain.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/snr_gain.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/detection/snr_reduction.m" afterPath="$PROJECT_DIR$/mlradar/libs/detection/snr_reduction.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ecm/burn_through_range_escort.m" afterPath="$PROJECT_DIR$/mlradar/libs/ecm/burn_through_range_escort.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ecm/burn_through_range_selfscreen.m" afterPath="$PROJECT_DIR$/mlradar/libs/ecm/burn_through_range_selfscreen.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ecm/crossover_range_escort.m" afterPath="$PROJECT_DIR$/mlradar/libs/ecm/crossover_range_escort.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ecm/crossover_range_selfscreen.m" afterPath="$PROJECT_DIR$/mlradar/libs/ecm/crossover_range_selfscreen.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/ecm/jammer_to_signal.m" afterPath="$PROJECT_DIR$/mlradar/libs/ecm/jammer_to_signal.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/output_snr_bistatic.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/output_snr_bistatic.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/output_snr_polar.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/output_snr_polar.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/power_at_radar_bistatic.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/bistatic_equation/power_at_radar_bistatic.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/directivity.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/directivity.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/electric_field.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/electric_field.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/magnetic_field.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/magnetic_field.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/power_density.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/power_density.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/radiation_intensity.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/radiation_intensity.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/total_radiated_power.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/hertzian_dipole/total_radiated_power.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/loop_gain.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/loop_gain.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/maximum_range.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/maximum_range.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/minimum_detectable_signal.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/minimum_detectable_signal.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/output_snr.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/output_snr.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/power_at_radar.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/power_at_radar.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/power_density_radar.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/range_equation/power_density_radar.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/search_eqaution/output_snr_search.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/search_eqaution/output_snr_search.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/radar_range/search_eqaution/power_aperture.m" afterPath="$PROJECT_DIR$/mlradar/libs/radar_range/search_eqaution/power_aperture.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_oblique_rcs_2d.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_oblique_rcs_2d.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_oblique_rcs_3d.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_oblique_rcs_3d.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_rcs_2d.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_rcs_2d.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_rcs_3d.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/cylinder_rcs_3d.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/fdtd.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/fdtd.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/po_scattering.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/po_scattering.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/rcs_frustum.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/rcs_frustum.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/read_facet_model.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/read_facet_model.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/read_fdtd_geometry.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/read_fdtd_geometry.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/rectangular_plate.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/rectangular_plate.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/right_circular_cone.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/right_circular_cone.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/rounded_nose_cone.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/rounded_nose_cone.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/sphere_coefficients.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/sphere_coefficients.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/stratified_sphere.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/stratified_sphere.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/rcs/strip_rcs.m" afterPath="$PROJECT_DIR$/mlradar/libs/rcs/strip_rcs.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/cascade_noise_figure.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/cascade_noise_figure.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/chirp.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/chirp.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/coherent_detector.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/coherent_detector.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/envelope_detector.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/envelope_detector.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/quantization.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/quantization.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/receivers/sensitivity_time_control.m" afterPath="$PROJECT_DIR$/mlradar/libs/receivers/sensitivity_time_control.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/sar/backprojection.m" afterPath="$PROJECT_DIR$/mlradar/libs/sar/backprojection.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/sar/backprojection_3d.m" afterPath="$PROJECT_DIR$/mlradar/libs/sar/backprojection_3d.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/sar/backprojection_cv.m" afterPath="$PROJECT_DIR$/mlradar/libs/sar/backprojection_cv.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/tracking/kalman.m" afterPath="$PROJECT_DIR$/mlradar/libs/tracking/kalman.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/cosint.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/cosint.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/db.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/db.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/ecef_to_lla.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/ecef_to_lla.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/fftfreq.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/fftfreq.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/fresnel.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/fresnel.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/lin.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/lin.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/lla_to_ecef.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/lla_to_ecef.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/plot_settings.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/plot_settings.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/sinc.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/sinc.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/utils/sinint.m" afterPath="$PROJECT_DIR$/mlradar/libs/utils/sinint.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_elevation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_elevation.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_elevation_approximate.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_elevation_approximate.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_range.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/apparent_range.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/atmospheric_attenuation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/atmospheric_attenuation.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/brewster_angle.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/brewster_angle.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/cloud_fog_attenuation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/cloud_fog_attenuation.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/critical_angle.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/critical_angle.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/diffraction_attenuation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/diffraction_attenuation.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/ducting.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/ducting.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/plane_wave_parameters.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/plane_wave_parameters.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/rain_attenuation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/rain_attenuation.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/reflection_transmission.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/reflection_transmission.m" />
+      <change beforePath="$PROJECT_DIR$/mlradar/libs/wave_propagation/vegetation_attenuation.m" afterPath="$PROJECT_DIR$/mlradar/libs/wave_propagation/vegetation_attenuation.m" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter01/RadarBook.py" afterPath="$PROJECT_DIR$/pyradar/Chapter01/RadarBook.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/apparent_elevation_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/apparent_elevation_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/apparent_range_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/apparent_range_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/atmosphere_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/atmosphere_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/beam_spreading_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/beam_spreading_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/cloud_fog_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/cloud_fog_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/diffraction_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/diffraction_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/ducting_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/ducting_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/plane_waves_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/plane_waves_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/rain_attenuation_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/rain_attenuation_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/reflection_transmission_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/reflection_transmission_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter02/vegetation_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter02/vegetation_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/circular_aperture_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/circular_aperture_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/circular_array_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/circular_array_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/horn_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/horn_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/linear_array_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/linear_array_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/linear_wire_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/linear_wire_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/loop_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/loop_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/planar_array_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/planar_array_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter03/rectangular_aperture_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter03/rectangular_aperture_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/hertzian_dipole_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/hertzian_dipole_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/loop_gain_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/loop_gain_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/maximum_detection_range_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/maximum_detection_range_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/minimum_detectable_signal_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/minimum_detectable_signal_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_bistatic_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_bistatic_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_search_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/output_signal_to_noise_search_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/ovals_of_cassini_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/ovals_of_cassini_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/power_aperture_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/power_aperture_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/power_at_radar_bistatic_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/power_at_radar_bistatic_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/power_at_radar_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/power_at_radar_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter04/power_density_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter04/power_density_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/adc_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/adc_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/coherent_detector_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/coherent_detector_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/envelope_detector_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/envelope_detector_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/low_pass_filter_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/low_pass_filter_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/noise_figure_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/noise_figure_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/resolution_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/resolution_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter05/sensitivity_time_control_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter05/sensitivity_time_control_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/binary_integration_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/binary_integration_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/cfar_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/cfar_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/coherent_integration_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/coherent_integration_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/gaussian_noise_pd_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/gaussian_noise_pd_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/non_coherent_integration_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/non_coherent_integration_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/optimum_binary_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/optimum_binary_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/rayleigh_noise_pd_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/rayleigh_noise_pd_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/shnidman_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/shnidman_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter06/single_pulse_snr_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter06/single_pulse_snr_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/fdtd_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/fdtd_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/frustum_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/frustum_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/infinite_cylinder_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/infinite_cylinder_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/infinite_cylinder_oblique_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/infinite_cylinder_oblique_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/infinite_strip_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/infinite_strip_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/po_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/po_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/rectangular_plate_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/rectangular_plate_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/right_circular_cone_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/right_circular_cone_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/rounded_nose_cone_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/rounded_nose_cone_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter07/stratified_sphere_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter07/stratified_sphere_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/PRN_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/PRN_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/barker_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/barker_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/frank_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/frank_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/lfm_pulse_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/lfm_pulse_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/lfm_train_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/lfm_train_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/matched_filter_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/matched_filter_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/pulse_train_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/pulse_train_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/single_pulse_ambiguity_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/single_pulse_ambiguity_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/stepped_frequency_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/stepped_frequency_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter08/stretch_processor_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter08/stretch_processor_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_gamma_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_gamma_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/kalman_ca_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/kalman_ca_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/kalman_cv_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/kalman_cv_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/kalman_epsilon_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/kalman_epsilon_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter09/kalman_sigma_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter09/kalman_sigma_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_3d_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_3d_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_backhoe_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_backhoe_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_cv_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_cv_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/back_projection_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/stripmap_cv_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/stripmap_cv_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter10/stripmap_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter10/stripmap_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter11/burnthrough_range_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter11/burnthrough_range_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter11/crossover_range_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter11/crossover_range_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter11/delay_line_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter11/delay_line_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Chapter11/jammer_to_signal_example.py" afterPath="$PROJECT_DIR$/pyradar/Chapter11/jammer_to_signal_example.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/ambiguity/ambiguity_function.py" afterPath="$PROJECT_DIR$/pyradar/Libs/ambiguity/ambiguity_function.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/ambiguity/frank_code.py" afterPath="$PROJECT_DIR$/pyradar/Libs/ambiguity/frank_code.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/ambiguity/prn_code.py" afterPath="$PROJECT_DIR$/pyradar/Libs/ambiguity/prn_code.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/circular_te11_ground_plane.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/circular_te11_ground_plane.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/circular_uniform_ground_plane.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/circular_uniform_ground_plane.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_te10_ground_plane.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_te10_ground_plane.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_uniform_free_space.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_uniform_free_space.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_uniform_ground_plane.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/aperture/rectangular_uniform_ground_plane.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/array/circular_uniform.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/array/circular_uniform.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array_un.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array_un.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/array/planar_uniform.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/array/planar_uniform.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/e_plane_sectoral.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/e_plane_sectoral.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/h_plane_sectoral.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/h_plane_sectoral.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/pyramidal.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/horn/pyramidal.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/finite_length_dipole.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/finite_length_dipole.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/infinitesimal_dipole.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/infinitesimal_dipole.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/small_dipole.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/small_dipole.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/loop/circular_loop.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/loop/circular_loop.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/antenna/loop/small_loop.py" afterPath="$PROJECT_DIR$/pyradar/Libs/antenna/loop/small_loop.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/binary_integration.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/binary_integration.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/cfar.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/cfar.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/coherent_integration.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/coherent_integration.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/non_coherent_integration.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/non_coherent_integration.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/shnidman.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/shnidman.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/detection/single_pulse.py" afterPath="$PROJECT_DIR$/pyradar/Libs/detection/single_pulse.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/ecm/countermeasures.py" afterPath="$PROJECT_DIR$/pyradar/Libs/ecm/countermeasures.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/radar_range/bistatic_radar_range.py" afterPath="$PROJECT_DIR$/pyradar/Libs/radar_range/bistatic_radar_range.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/radar_range/hertzian_dipole.py" afterPath="$PROJECT_DIR$/pyradar/Libs/radar_range/hertzian_dipole.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/radar_range/radar_range.py" afterPath="$PROJECT_DIR$/pyradar/Libs/radar_range/radar_range.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/radar_range/search_radar_range.py" afterPath="$PROJECT_DIR$/pyradar/Libs/radar_range/search_radar_range.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/display_facet_model.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/display_facet_model.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/frustum.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/frustum.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder_oblique.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder_oblique.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_strip.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_strip.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/rectangular_plate.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/rectangular_plate.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/right_circular_cone.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/right_circular_cone.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/rounded_nose_cone.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/rounded_nose_cone.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/scattering_matrix.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/scattering_matrix.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/rcs/stratified_sphere.py" afterPath="$PROJECT_DIR$/pyradar/Libs/rcs/stratified_sphere.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/receivers/coherent_detector.py" afterPath="$PROJECT_DIR$/pyradar/Libs/receivers/coherent_detector.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/receivers/envelope_detector.py" afterPath="$PROJECT_DIR$/pyradar/Libs/receivers/envelope_detector.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/receivers/noise_figure.py" afterPath="$PROJECT_DIR$/pyradar/Libs/receivers/noise_figure.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/receivers/quantization.py" afterPath="$PROJECT_DIR$/pyradar/Libs/receivers/quantization.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/receivers/sensitivity_time_control.py" afterPath="$PROJECT_DIR$/pyradar/Libs/receivers/sensitivity_time_control.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/sar/backprojection.py" afterPath="$PROJECT_DIR$/pyradar/Libs/sar/backprojection.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/tracking/kalman.py" afterPath="$PROJECT_DIR$/pyradar/Libs/tracking/kalman.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/utils/ecef_to_lla.py" afterPath="$PROJECT_DIR$/pyradar/Libs/utils/ecef_to_lla.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/utils/lla_to_ecef.py" afterPath="$PROJECT_DIR$/pyradar/Libs/utils/lla_to_ecef.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/utils/plot_settings.py" afterPath="$PROJECT_DIR$/pyradar/Libs/utils/plot_settings.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/atmosphere.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/atmosphere.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/cloud_fog.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/cloud_fog.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/diffraction.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/diffraction.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/ducting.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/ducting.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/plane_waves.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/plane_waves.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/rain.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/rain.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/refraction.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/refraction.py" />
+      <change beforePath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/vegetation.py" afterPath="$PROJECT_DIR$/pyradar/Libs/wave_propagation/vegetation.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/array/planar_uniform.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array_un.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/array/circular_uniform.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/horn/pyramidal.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/horn/h_plane_sectoral.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/horn/e_plane_sectoral.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/small_dipole.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/infinitesimal_dipole.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/finite_length_dipole.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/loop/small_loop.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/antenna/loop/circular_loop.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/single_pulse.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/shnidman.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/non_coherent_integration.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/coherent_integration.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/cfar.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/detection/binary_integration.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/ecm/countermeasures.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/radar_range/search_radar_range.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/radar_range/radar_range.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/radar_range/hertzian_dipole.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/radar_range/bistatic_radar_range.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/stratified_sphere.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/scattering_matrix.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/right_circular_cone.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/rectangular_plate.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_strip.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder_oblique.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/rounded_nose_cone.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/frustum.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/rcs/display_facet_model.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/receivers/sensitivity_time_control.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/receivers/quantization.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/receivers/noise_figure.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/receivers/envelope_detector.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/receivers/coherent_detector.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/sar/backprojection.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/tracking/kalman.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/utils/plot_settings.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/utils/lla_to_ecef.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/utils/ecef_to_lla.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/vegetation.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/refraction.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/rain.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/plane_waves.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/ducting.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/diffraction.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/cloud_fog.py" />
+        <option value="$PROJECT_DIR$/pyradar/Libs/wave_propagation/atmosphere.py" />
+      </list>
+    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -21,11 +420,20 @@
     <option name="height" value="1096" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -38,21 +446,18 @@
               <item name="software" type="462c0819:PsiDirectoryNode" />
               <item name="pyradar" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="software" type="b2602c69:ProjectViewProjectNode" />
-              <item name="software" type="462c0819:PsiDirectoryNode" />
-              <item name="pyradar" type="462c0819:PsiDirectoryNode" />
-              <item name="Chapter09" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -68,7 +473,6 @@
   </component>
   <component name="RunManager">
     <configuration name="RadarBook" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="software" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -79,20 +483,16 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="software" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/pyradar/Chapter01/RadarBook.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.RadarBook" />
-      </list>
-    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -108,117 +508,441 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24960339" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32998884" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2495226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter02/apparent_elevation_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter02/reflection_transmission_example.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter01/RadarBook.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/array/linear_array.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#109#119#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter03/circular_aperture_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/array/circular_uniform.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#126#136#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Libs/radar_range/radar_range.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter04/loop_gain_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/horn/pyramidal.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#118#128#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/coherent_integration_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/horn/h_plane_sectoral.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="72" />
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/horn/e_plane_sectoral.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/small_dipole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/infinitesimal_dipole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/linear_wire/finite_length_dipole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/loop/small_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/antenna/loop/circular_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/single_pulse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/shnidman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/non_coherent_integration.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/coherent_integration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-62" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/gaussian_noise_pd_example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="56" column="29" lean-forward="true" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-          <folding>
-            <element signature="e#127#137#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/non_coherent_integration_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/cfar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1047">
-          <folding>
-            <element signature="e#134#144#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/optimum_binary_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/detection/binary_integration.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="79" column="43" lean-forward="true" selection-start-line="74" selection-start-column="19" selection-end-line="79" selection-end-column="43" />
-          <folding>
-            <element signature="e#124#134#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter06/probability_distributions_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/ecm/countermeasures.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="63" />
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyradar/Chapter09/alpha_beta_gamma_example.py">
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/radar_range/search_radar_range.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1125" />
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/radar_range/radar_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/radar_range/hertzian_dipole.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/radar_range/bistatic_radar_range.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/stratified_sphere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/scattering_matrix.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/right_circular_cone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/rectangular_plate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/infinite_strip.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder_oblique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/rounded_nose_cone.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/infinite_cylinder.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/frustum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/rcs/display_facet_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/receivers/sensitivity_time_control.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/receivers/quantization.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/receivers/noise_figure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/receivers/envelope_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/receivers/coherent_detector.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/sar/backprojection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/tracking/kalman.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/utils/plot_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/utils/lla_to_ecef.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/utils/ecef_to_lla.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/oxygen_spectral_attenuation.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/vegetation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/refraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/rain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/plane_waves.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/ducting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/diffraction.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/cloud_fog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/Libs/wave_propagation/atmosphere.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="88" lean-forward="false" selection-start-line="9" selection-start-column="88" selection-end-line="9" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pyradar/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
