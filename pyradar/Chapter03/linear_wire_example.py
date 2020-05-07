@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.LinearWire_ui import Ui_MainWindow
 from Libs.antenna.linear_wire import finite_length_dipole, infinitesimal_dipole, small_dipole
-from scipy import linspace, finfo
+from numpy import linspace, finfo
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

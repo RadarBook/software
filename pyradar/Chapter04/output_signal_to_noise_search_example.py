@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter04.ui.OutputSNRSearch_ui import Ui_MainWindow
 from Libs.radar_range import search_radar_range
-from scipy import linspace, log10
+from numpy import linspace, log10
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

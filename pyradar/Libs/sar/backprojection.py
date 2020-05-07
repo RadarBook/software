@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c, pi
-from scipy import sqrt, linspace, zeros_like, exp, sin, cos, ones
+from numpy import sqrt, linspace, zeros_like, exp, sin, cos, ones
 from scipy.interpolate import interp1d
 from scipy.fftpack import ifft, fftshift
 

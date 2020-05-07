@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c
-from scipy import linspace
+from numpy import linspace
 
 
 def attenuation(pulse_repetition_frequency, pulse_width):

@@ -12,7 +12,8 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter02.ui.ReflectionTransmission_ui import Ui_MainWindow
 from Libs.wave_propagation import plane_waves
-from scipy import linspace, pi, array, degrees
+from numpy import linspace, array, degrees
+from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

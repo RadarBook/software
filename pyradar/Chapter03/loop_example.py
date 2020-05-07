@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.Loop_ui import Ui_MainWindow
 from Libs.antenna.loop import small_loop, circular_loop
-from scipy import linspace
+from numpy import linspace
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

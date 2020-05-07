@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter08.ui.AF_PRN_ui import Ui_MainWindow
-from scipy import meshgrid
+from numpy import meshgrid
 from Libs.ambiguity.ambiguity_function import phase_coded_wf
 from Libs.ambiguity.prn_code import mls
 from PyQt5.QtWidgets import QApplication, QMainWindow

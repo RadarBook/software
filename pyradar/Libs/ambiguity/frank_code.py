@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import pi
-from scipy import exp
+from numpy import exp
 
 
 def n_phase_code(n):

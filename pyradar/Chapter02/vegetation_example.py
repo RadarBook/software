@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter02.ui.VegetationAttenuation_ui import Ui_MainWindow
 from Libs.wave_propagation import vegetation
-from scipy import linspace
+from numpy import linspace
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

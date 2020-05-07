@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter10.ui.BackProjection3pt_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, array, sqrt, radians, sin, cos, zeros, dot, exp, amax, ones
+from numpy import linspace, meshgrid, array, sqrt, radians, sin, cos, zeros, dot, exp, amax, ones
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
 from scipy.signal.windows import hanning, hamming
@@ -203,7 +203,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
 
         # Display the results
         self.axes1.scatter(xs, ys, zs, s=rs, cmap='Greys')
-        self.axes1.set_aspect('equal')
+        #self.axes1.set_aspect('equal')
         set_equal(self.axes1)
 
         # Set the plot title and labels

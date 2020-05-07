@@ -11,8 +11,8 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter10.ui.Stripmap_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10, sqrt, ceil, arctan, cos, tan, zeros_like, zeros, exp, amax, ones, radians
-from scipy import outer, finfo
+from numpy import linspace, meshgrid, log10, sqrt, ceil, arctan, cos, tan, zeros_like, zeros, exp, amax, ones, radians, \
+    outer, finfo
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
 from scipy.signal.windows import hanning, hamming

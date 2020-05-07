@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter07.ui.PO_ui import Ui_MainWindow
-from scipy import log10, linspace, radians, degrees, array
+from numpy import log10, linspace, radians, degrees, array
 from Libs.rcs import scattering_matrix, display_facet_model
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter02.ui.ApparentRange_ui import Ui_MainWindow
 from Libs.wave_propagation import refraction
-from scipy import array
+from numpy import array
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
 

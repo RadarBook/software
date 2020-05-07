@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import pi, mu_0, epsilon_0, c
-from scipy import sqrt, sin, exp
+from numpy import sqrt, sin, exp
 
 
 def electric_field(relative_permittivity, relative_permeability, frequency, current, length, r, theta):

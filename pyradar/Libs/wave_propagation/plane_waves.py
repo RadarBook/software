@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import pi, mu_0, epsilon_0
-from scipy import sqrt, imag, real, sin, cos, arcsin
+from numpy import sqrt, imag, real, sin, cos, arcsin
 
 
 def parameters(frequency, relative_permittivity, relative_permeability, conductivity):

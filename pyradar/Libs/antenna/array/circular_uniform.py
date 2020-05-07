@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import pi, c
-from scipy import sin, cos, amax, arange, exp
+from numpy import sin, cos, amax, arange, exp
 
 
 def array_factor(number_of_elements, radius, frequency, scan_angle_theta, scan_angle_phi, theta, phi):

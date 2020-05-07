@@ -11,8 +11,9 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter06.ui.CFAR_ui import Ui_MainWindow
-from scipy import log10, fftpack, sqrt, pi, sin, cos, linspace, seterr
-from scipy import random as rnd
+from numpy import log10, sqrt, sin, cos, linspace, seterr, random as rnd
+from scipy.constants import pi
+from scipy import fftpack
 from Libs.detection.cfar import cfar
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

@@ -13,7 +13,7 @@ import sys
 from Chapter06.ui.BinaryIntegration_ui import Ui_MainWindow
 from Libs.detection.binary_integration import probability_of_detection
 from Libs.detection.single_pulse import pd_rayleigh
-from scipy import linspace, log10
+from numpy import linspace, log10
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

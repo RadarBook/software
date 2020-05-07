@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter09.ui.Kalman_ui import Ui_MainWindow
-from scipy import linspace, zeros, zeros_like, eye, random, matmul, sqrt, ones_like
+from numpy import linspace, zeros, zeros_like, eye, random, matmul, sqrt
 from Libs.tracking import kalman
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter08.ui.MatchedFilter_ui import Ui_MainWindow
-from scipy import linspace, log10, zeros, exp, sqrt, finfo, conj, ones
+from numpy import linspace, log10, zeros, exp, sqrt, finfo, conj, ones
 from scipy.fftpack import ifft, fft, fftshift
 from scipy.constants import pi, c
 from scipy.signal.windows import hanning, hamming, blackmanharris, kaiser

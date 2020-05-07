@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.CircularArray_ui import Ui_MainWindow
 from Libs.antenna.array import circular_uniform
-from scipy import linspace, radians, degrees, log10, sin, cos, meshgrid
+from numpy import linspace, radians, degrees, log10, sin, cos, meshgrid
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

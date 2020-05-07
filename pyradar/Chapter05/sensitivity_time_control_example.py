@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter05.ui.STC_ui import Ui_MainWindow
-from scipy import log10, array
+from numpy import log10, array
 from Libs.receivers import sensitivity_time_control
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

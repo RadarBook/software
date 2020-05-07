@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c, pi, mu_0, epsilon_0
-from scipy import sin, cos, sinc, exp, sqrt
+from numpy import sin, cos, sinc, exp, sqrt
 
 
 def beamwidth(width, height, frequency):

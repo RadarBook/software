@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.CircularAperture_ui import Ui_MainWindow
 from Libs.antenna.aperture import circular_uniform_ground_plane, circular_te11_ground_plane
-from scipy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees, finfo
+from numpy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees, finfo
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

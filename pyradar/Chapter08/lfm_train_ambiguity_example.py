@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter08.ui.LFM_Train_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, finfo
+from numpy import linspace, meshgrid, finfo
 from Libs.ambiguity.ambiguity_function import lfm_train
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

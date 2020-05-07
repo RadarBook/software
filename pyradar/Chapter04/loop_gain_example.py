@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter04.ui.LoopGain_ui import Ui_MainWindow
 from Libs.radar_range import radar_range
-from scipy import log10
+from numpy import log10
 from PyQt5.QtWidgets import QApplication, QMainWindow
 
 

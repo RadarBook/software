@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.LinearArray_ui import Ui_MainWindow
 from Libs.antenna.array import linear_array
-from scipy import linspace, radians, degrees, log10, finfo
+from numpy import linspace, radians, degrees, log10, finfo
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

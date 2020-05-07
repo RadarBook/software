@@ -9,8 +9,8 @@ Copyright (C) 2019 Artech House (artech@artechhouse.com)
 This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import pi, sqrt, zeros, array, sin, cos, radians
-from scipy.constants import c, epsilon_0, mu_0
+from numpy import sqrt, zeros, array, sin, cos, radians
+from scipy.constants import pi, c, epsilon_0, mu_0
 from scipy.special import spherical_jn, spherical_yn
 
 

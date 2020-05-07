@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter08.ui.StretchProcessor_ui import Ui_MainWindow
-from scipy import linspace, log10, zeros, exp, sqrt, finfo, ceil, ones
+from numpy import linspace, log10, zeros, exp, sqrt, finfo, ceil, ones
 from scipy.fftpack import fftfreq, fft, fftshift
 from scipy.constants import pi, c
 from scipy.signal.windows import hanning, hamming, blackmanharris, kaiser

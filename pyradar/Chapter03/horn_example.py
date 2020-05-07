@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter03.ui.Horn_ui import Ui_MainWindow
 from Libs.antenna.horn import e_plane_sectoral, h_plane_sectoral, pyramidal
-from scipy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees
+from numpy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

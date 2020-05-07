@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter08.ui.AFSingle_ui import Ui_MainWindow
-from scipy import finfo, linspace, meshgrid
+from numpy import finfo, linspace, meshgrid
 from Libs.ambiguity.ambiguity_function import single_pulse
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

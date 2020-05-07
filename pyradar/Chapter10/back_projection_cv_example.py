@@ -11,8 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter10.ui.BackProjectionCV_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze
-from scipy import outer
+from numpy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze, outer
 from scipy.io import loadmat
 from scipy.fftpack import next_fast_len
 from scipy.signal.windows import hanning, hamming

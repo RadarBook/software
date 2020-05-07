@@ -13,7 +13,7 @@ import sys
 from Chapter03.ui.RectangularAperture_ui import Ui_MainWindow
 from Libs.antenna.aperture import rectangular_uniform_ground_plane, rectangular_te10_ground_plane, \
     rectangular_uniform_free_space
-from scipy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees, finfo
+from numpy import linspace, meshgrid, log10, sin, cos, amax, sqrt, degrees, finfo
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

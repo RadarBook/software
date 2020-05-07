@@ -9,7 +9,7 @@ Copyright (C) 2019 Artech House (artech@artechhouse.com)
 This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import log10, prod
+from numpy import log10, prod
 
 
 def total_noise_figure(gain, noise_figure):

@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter07.ui.InfiniteCylinder_ui import Ui_MainWindow
-from scipy import log10, linspace
+from numpy import log10, linspace
 from Libs.rcs.infinite_cylinder import radar_cross_section, radar_cross_section_3d
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

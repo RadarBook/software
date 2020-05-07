@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter11.ui.DelayLine_ui import Ui_MainWindow
-from scipy import linspace, log10, finfo
+from numpy import linspace, log10, finfo
 from Libs.ecm import countermeasures
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

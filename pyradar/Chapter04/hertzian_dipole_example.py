@@ -12,7 +12,8 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter04.ui.HertzianDipole_ui import Ui_MainWindow
 from Libs.radar_range import hertzian_dipole
-from scipy import linspace, pi
+from numpy import linspace
+from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

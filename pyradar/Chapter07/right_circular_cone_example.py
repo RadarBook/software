@@ -11,7 +11,8 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter07.ui.RightCircularCone_ui import Ui_MainWindow
-from scipy import log10, linspace, array, degrees, radians, pi
+from numpy import log10, linspace, array, degrees, radians
+from scipy.constants import pi
 from Libs.rcs.right_circular_cone import radar_cross_section
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

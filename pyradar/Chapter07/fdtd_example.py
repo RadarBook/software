@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter07.ui.FDTD_ui import Ui_MainWindow
-from scipy import sqrt, sin, cos, radians, zeros, log, exp, linspace, meshgrid
+from numpy import sqrt, sin, cos, radians, zeros, log, exp, linspace, meshgrid
 from scipy.constants import c, epsilon_0, mu_0
 from pathlib import Path
 from PyQt5.QtWidgets import QApplication, QMainWindow

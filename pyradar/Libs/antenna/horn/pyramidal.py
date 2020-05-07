@@ -10,7 +10,7 @@ This file is part of Introduction to Radar Using Python and MATLAB
 and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c, mu_0, epsilon_0, pi
-from scipy import sqrt, sin, cos, exp
+from numpy import sqrt, sin, cos, exp
 from scipy.special import fresnel
 
 

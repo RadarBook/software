@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter07.ui.InfiniteStrip_ui import Ui_MainWindow
-from scipy import log10, linspace
+from numpy import log10, linspace
 from Libs.rcs.infinite_strip import radar_cross_section
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

@@ -11,7 +11,7 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter06.ui.SinglePulseSNR_ui import Ui_MainWindow
-from scipy import log10, arange
+from numpy import log10, arange
 from Libs.detection.single_pulse import snr_reduction, snr_gain, single_pulse_snr
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

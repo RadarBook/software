@@ -11,7 +11,8 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 import sys
 from Chapter05.ui.LowPassFilter_ui import Ui_MainWindow
-from scipy import log10, signal
+from numpy import log10
+from scipy import signal
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
