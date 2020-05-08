@@ -111,7 +111,7 @@ class PulseTrain(QMainWindow, Ui_MainWindow):
             ambiguity = pulse_train(t, f, pulsewidth, pri, number_of_pulses)
 
             # Plot the ambiguity function
-            self.axes1.contour(t, f, ambiguity, 30, cmap='jet', vmin=-0.2, vmax=1.0)
+            self.axes1.contour(t, f, ambiguity + finfo('float').eps, 30, cmap='jet', vmin=-0.2, vmax=1.0)
 
             # Set the x and y axis labels
             self.axes1.set_xlabel("Time (s)", size=12)
