@@ -6,6 +6,10 @@ function total_nf = cascade_noise_figure(gain, noise_figure)
 %
 %     Created by: Lee A. Harrison
 %     On: 9/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
     % Convert noise figure and gain to linear units
     noise_factor = 10.0 .^ (noise_figure / 10.0);

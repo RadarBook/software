@@ -4,11 +4,14 @@ File: back_projection_cv_example.py
 Created by: Lee A. Harrison
 On: 2/12/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter10.ui.BackProjectionCV_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze
-from scipy import outer
+from numpy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze, outer
 from scipy.io import loadmat
 from scipy.fftpack import next_fast_len
 from scipy.signal.windows import hanning, hamming

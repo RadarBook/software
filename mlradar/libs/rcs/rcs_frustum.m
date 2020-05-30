@@ -9,6 +9,10 @@ function [ rcs ] = rcs_frustum( frequency, nose_radius, base_radius, length, inc
 
 %     Created by: Lee A. Harrison
 %     On: 1/15/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Speed of light
 c = 299792458;

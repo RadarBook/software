@@ -4,8 +4,14 @@ File: coherent_detector.py
 Created by: Lee A. Harrison
 On: 9/18/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import pi, fftpack, exp
+from numpy import exp
+from scipy import fftpack
+from scipy.constants import pi
 from scipy.signal import butter, freqs
 
 

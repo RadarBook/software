@@ -4,11 +4,12 @@ File: planar_array_example.py
 Created by: Lee A. Harrison
 On: 8/1/2018
 Created with: PyCharm
+
 """
 import sys
 from Chapter03.ui.PlanarArray_ui import Ui_MainWindow
 from Libs.antenna.array import planar_uniform
-from scipy import linspace, radians, degrees, log10, meshgrid, finfo
+from numpy import linspace, radians, degrees, log10, meshgrid, finfo
 from scipy.constants import pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

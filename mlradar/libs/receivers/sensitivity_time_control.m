@@ -6,6 +6,10 @@ function [ receive_range, attenuation ] = sensitivity_time_control(pulse_repetit
 %
 %     Created by: Lee A. Harrison
 %     On: 9/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Speed of light (m/s)
 c = 299792458;

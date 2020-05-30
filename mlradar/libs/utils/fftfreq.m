@@ -6,6 +6,10 @@ function [ frequencies ] = fftfreq( n, dt )
 %
 % Created by: Lee A. Harrison
 % On: 4/27/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Maximum frequency (+/-)
 f_max = 1.0 / (2.0 * dt);

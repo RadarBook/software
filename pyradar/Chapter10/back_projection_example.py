@@ -4,11 +4,14 @@ File: back_projection_example.py
 Created by: Lee A. Harrison
 On: 2/10/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter10.ui.BackProjection_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10, sqrt, radians, sin, cos, zeros_like, zeros, dot, exp, amax, ones
-from scipy import outer
+from numpy import linspace, meshgrid, log10, sqrt, radians, sin, cos, zeros_like, zeros, dot, exp, amax, ones, outer
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
 from scipy.signal.windows import hanning, hamming

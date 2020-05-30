@@ -4,10 +4,14 @@ File: kalman_sigma_example.py
 Created by: Lee A. Harrison
 On: 3/18/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter09.ui.KalmanAdaptiveSigma_ui import Ui_MainWindow
-from scipy import linspace, zeros, zeros_like, eye, random, matmul, sqrt, ones_like
+from numpy import linspace, zeros, zeros_like, eye, random, matmul, sqrt, ones_like
 from Libs.tracking import kalman
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

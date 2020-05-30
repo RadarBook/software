@@ -4,6 +4,10 @@ function [ scattering_matrix ] = po_scattering(theta_inc, phi_inc, theta_obs, ph
 
 % Created by: Lee A. Harrison
 % Cretaed on: 1/17/2019
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Size the scattering matrix
 scattering_matrix = zeros(4, numel(frequency));

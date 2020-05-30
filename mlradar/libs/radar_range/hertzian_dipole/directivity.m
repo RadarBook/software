@@ -10,6 +10,10 @@ function D = directivity(relative_permittivity, relative_permeability, frequency
 %
 % Created by: Lee A. Harrison
 % On: 6/21/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Get the total radiated power
 power_radiated = total_radiated_power(relative_permittivity, relative_permeability, frequency, current, length);

@@ -4,10 +4,14 @@ File: beam_spreading_example.py
 Created by: Lee A. Harrison
 On: 2/17/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter02.ui.BeamSpreading_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10
+from numpy import linspace, meshgrid, log10
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

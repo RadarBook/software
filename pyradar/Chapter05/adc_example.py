@@ -4,11 +4,16 @@ File: adc_example.py
 Created by: Lee A. Harrison
 On: 9/19/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter05.ui.ADC_ui import Ui_MainWindow
 from Libs.receivers import quantization
-from scipy import arange, sin, pi, linspace
+from numpy import arange, sin, linspace
+from scipy.constants import pi
 from scipy.signal import chirp
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

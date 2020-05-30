@@ -4,9 +4,13 @@ File: scattering_matrix.py
 Created by: Lee A. Harrison
 On: 10/19/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import array, zeros, pi, sin, cos, exp, cross, sum, sqrt, dot, arctan2, arccos, sign
-from scipy.constants import c
+from numpy import array, zeros, sin, cos, exp, cross, sum, sqrt, dot, arctan2, arccos, sign
+from scipy.constants import c, pi
 from scipy.linalg import norm
 
 

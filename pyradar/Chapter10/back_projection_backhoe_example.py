@@ -4,12 +4,15 @@ File: back_projection_backhoe_example.py
 Created by: Lee A. Harrison
 On: 2/20/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter10.ui.BackProjectionBH_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, array, radians, amax, ones, squeeze
+from numpy import linspace, meshgrid, array, radians, amax, ones, squeeze, max, min
 from scipy.signal.windows import hanning, hamming
-from numpy import max, min
 from Libs.sar import backprojection
 from scipy.io import loadmat
 from mpl_toolkits.mplot3d import Axes3D
@@ -187,7 +190,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         self.axes1.scatter3D(xs, ys, zs, s=rs, cmap='Greys')
         self.axes1.grid(False)
         self.axes1.axis('off')
-        self.axes1.set_aspect('equal')
+        #self.axes1.set_aspect('equal')
         set_equal(self.axes1)
 
         # Update the canvas

@@ -4,11 +4,15 @@ File: ovals_of_cassini_example.py
 Created by: Lee A. Harrison
 On: 7/2/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter04.ui.OvalsOfCassini_ui import Ui_MainWindow
-from scipy import linspace, log10, pi, sqrt, sin, cos, imag, real
-from scipy.constants import c, Boltzmann as k
+from numpy import linspace, log10, sqrt, sin, cos, imag, real
+from scipy.constants import c, Boltzmann as k, pi
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
@@ -94,7 +98,6 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
 
         # Clear the axes for the updated plot
         self.axes1.clear()
-        self.axes1.set_color_cycle
 
         # Loop over all the desired signal to noise ratios
         for s in SNR:

@@ -4,9 +4,13 @@ File: planar_uniform.py
 Created by: Lee A. Harrison
 On: 1/22/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import pi, sin, cos, divide, ones_like
-from scipy.constants import c
+from numpy import sin, cos, divide, ones_like
+from scipy.constants import c, pi
 
 
 def array_factor(number_of_elements_x, number_of_elements_y, element_spacing_x, element_spacing_y, frequency,

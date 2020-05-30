@@ -4,10 +4,14 @@ File: fdtd_example.py
 Created by: Lee A. Harrison
 On: 10/24/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter07.ui.FDTD_ui import Ui_MainWindow
-from scipy import sqrt, sin, cos, radians, zeros, log, exp, linspace, meshgrid
+from numpy import sqrt, sin, cos, radians, zeros, log, exp, linspace, meshgrid
 from scipy.constants import c, epsilon_0, mu_0
 from pathlib import Path
 from PyQt5.QtWidgets import QApplication, QMainWindow

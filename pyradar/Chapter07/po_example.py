@@ -4,10 +4,14 @@ File: po_example.py
 Created by: Lee A. Harrison
 On: 11/21/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter07.ui.PO_ui import Ui_MainWindow
-from scipy import log10, linspace, radians, degrees, array
+from numpy import log10, linspace, radians, degrees, array
 from Libs.rcs import scattering_matrix, display_facet_model
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore

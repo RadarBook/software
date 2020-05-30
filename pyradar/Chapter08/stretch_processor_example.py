@@ -4,10 +4,14 @@ File: stretch_processor_example.py
 Created by: Lee A. Harrison
 On: 1/23/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter08.ui.StretchProcessor_ui import Ui_MainWindow
-from scipy import linspace, log10, zeros, exp, sqrt, finfo, ceil, ones
+from numpy import linspace, log10, zeros, exp, sqrt, finfo, ceil, ones
 from scipy.fftpack import fftfreq, fft, fftshift
 from scipy.constants import pi, c
 from scipy.signal.windows import hanning, hamming, blackmanharris, kaiser

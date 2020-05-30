@@ -6,6 +6,10 @@ function range = apparent_range(radar_lla, target_lla)
 %
 % Created by: Lee A. Harrison
 % On: 6/18/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Convert the radar and target locations
 [x,y,z]  = lla_to_ecef(radar_lla(1) * pi/180, radar_lla(2) * pi/180, radar_lla(3));

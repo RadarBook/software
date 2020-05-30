@@ -4,10 +4,14 @@ File: shnidman_example.py
 Created by: Lee A. Harrison
 On: 10/12/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter06.ui.Shnidman_ui import Ui_MainWindow
-from scipy import linspace, log10
+from numpy import linspace, log10
 from Libs.detection.shnidman import signal_to_noise
 from Libs.detection.non_coherent_integration import single_pulse_snr
 from PyQt5.QtWidgets import QApplication, QMainWindow

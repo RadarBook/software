@@ -11,6 +11,10 @@ function pr = power_at_radar_bistatic(peak_power, transmit_antenna_gain, receive
 %
 %     Created by: Lee A. Harrison
 %     On: 6/21/2018
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 % Speed of light
 c = 299792458;

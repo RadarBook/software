@@ -4,12 +4,16 @@ File: binary_integration_example.py
 Created by: Lee A. Harrison
 On: 10/11/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter06.ui.BinaryIntegration_ui import Ui_MainWindow
 from Libs.detection.binary_integration import probability_of_detection
 from Libs.detection.single_pulse import pd_rayleigh
-from scipy import linspace, log10
+from numpy import linspace, log10
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)

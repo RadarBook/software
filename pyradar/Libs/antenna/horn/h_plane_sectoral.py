@@ -4,8 +4,12 @@ File: h_plane_sectoral.py
 Created by: Lee A. Harrison
 On: 7/6/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import exp, sin, cos, sqrt, sinc
+from numpy import exp, sin, cos, sqrt, sinc
 from scipy.constants import c, epsilon_0, mu_0, pi
 from scipy.special import fresnel
 

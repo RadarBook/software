@@ -4,8 +4,12 @@ File: kalman.py
 Created by: Lee A. Harrison
 One: 3/16/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
-from scipy import matmul, sqrt
+from numpy import matmul, sqrt
 from scipy.linalg import inv, norm
 
 

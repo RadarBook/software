@@ -4,13 +4,16 @@ File: stripmap_cv_example.py
 Created by: Lee A. Harrison
 On: 3/25/2020
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter10.ui.StripmapCV_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze, tan, ceil, zeros, arctan, \
-    cos, degrees
+from numpy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze, tan, ceil, zeros, arctan, \
+    cos, degrees, outer
 from scipy.constants import speed_of_light as c, pi
-from scipy import outer
 from scipy.io import loadmat
 from scipy.fftpack import next_fast_len
 from scipy.signal.windows import hanning, hamming

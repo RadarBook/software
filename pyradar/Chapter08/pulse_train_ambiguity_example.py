@@ -4,10 +4,14 @@ File: pulse_train_ambiguity_example.py
 Created by: Lee A. Harrison
 On: 1/24/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter08.ui.AFTrain_ui import Ui_MainWindow
-from scipy import linspace, meshgrid, finfo
+from numpy import linspace, meshgrid, finfo
 from Libs.ambiguity.ambiguity_function import pulse_train
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
@@ -107,7 +111,7 @@ class PulseTrain(QMainWindow, Ui_MainWindow):
             ambiguity = pulse_train(t, f, pulsewidth, pri, number_of_pulses)
 
             # Plot the ambiguity function
-            self.axes1.contour(t, f, ambiguity, 30, cmap='jet', vmin=-0.2, vmax=1.0)
+            self.axes1.contour(t, f, ambiguity + finfo('float').eps, 30, cmap='jet', vmin=-0.2, vmax=1.0)
 
             # Set the x and y axis labels
             self.axes1.set_xlabel("Time (s)", size=12)

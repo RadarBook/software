@@ -9,7 +9,10 @@ function [ pd_binary, pfa_binary ] = binary_integration( m, n, pd, pfa )
 %
 %     Created by: Lee A. Harrison
 %     On: 10/11/2018
-
+%
+% Copyright (C) 2019 Artech House (artech@artechhouse.com)
+% This file is part of Introduction to Radar Using Python and MATLAB
+% and can not be copied and/or distributed without the express permission of Artech House.
 
 pd_binary = 0;
 pfa_binary = 0;

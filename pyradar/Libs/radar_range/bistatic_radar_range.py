@@ -4,9 +4,13 @@ File: bistatic_radar_range.py
 Created by: Lee A. Harrison
 On: 6/20/2018
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 from scipy.constants import c, pi, Boltzmann as k
-from scipy import cos
+from numpy import cos
 
 
 def power_at_radar(peak_power, transmit_antenna_gain, receive_antenna_gain, transmit_target_range, receive_target_range,

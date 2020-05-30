@@ -4,10 +4,14 @@ File: PRN_ambiguity_example.py
 Created by: Lee A. Harrison
 On: 1/26/2019
 Created with: PyCharm
+
+Copyright (C) 2019 Artech House (artech@artechhouse.com)
+This file is part of Introduction to Radar Using Python and MATLAB
+and can not be copied and/or distributed without the express permission of Artech House.
 """
 import sys
 from Chapter08.ui.AF_PRN_ui import Ui_MainWindow
-from scipy import meshgrid
+from numpy import meshgrid
 from Libs.ambiguity.ambiguity_function import phase_coded_wf
 from Libs.ambiguity.prn_code import mls
 from PyQt5.QtWidgets import QApplication, QMainWindow
