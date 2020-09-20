@@ -91,7 +91,7 @@ classdef linear_array
                     % Even case
                 else
                     coefficients = circshift(coefficients, offset);
-                    af = zeros(numel(obj.theta), 1);
+                    af = zeros(1, numel(obj.theta));
                     for i = 1:offset
                         af = af + coefficients(i) * cos((i - 0.5) * psi);
                     end
