@@ -60,8 +60,8 @@ classdef linear_array
                 coefficients = ones(obj.number_of_elements, 1);
             elseif strcmp(obj.window_type, 'Binomial')
                 clear coefficients
-                for k = 0:obj.number_of_elements-1
-                    coefficients(k+1) = nchoosek(obj.number_of_elements, k);
+                for k = 1:obj.number_of_elements-1
+                    coefficients(k+1) = nchoosek(obj.number_of_elements-1, k);
                 end
                 coefficients = coefficients';
             elseif strcmp(obj.window_type, 'Tschebyscheff')
@@ -77,32 +77,21 @@ classdef linear_array
             % Calculate the offset for even/odd
             offset = floor(obj.number_of_elements / 2);
             
-            if ~strcmp(obj.window_type, 'Tschebyscheff')
-                
-                % Odd case
-                if mod(obj.number_of_elements,2) == 1
-                    coefficients = circshift(coefficients, offset + 1);
-                    coefficients(1) = 0.5 * coefficients(1);
-                    af = zeros(1, numel(obj.theta));
-                    for i = 1:offset + 1
-                        af = af + coefficients(i) * cos((i-1) * psi);
-                    end
-                    af = af / max(max(abs(af)));
-                    % Even case
-                else
-                    coefficients = circshift(coefficients, offset);
-                    af = zeros(1, numel(obj.theta));
-                    for i = 1:offset
-                        af = af + coefficients(i) * cos((i - 0.5) * psi);
-                    end
-                    af = af / max(max(abs(af)));
+            % Odd case
+            if mod(obj.number_of_elements,2) == 1
+                coefficients = circshift(coefficients, offset + 1);
+                coefficients(1) = 0.5 * coefficients(1);
+                af = zeros(1, numel(obj.theta));
+                for i = 1:offset + 1
+                    af = af + coefficients(i) * cos((i-1) * psi);
                 end
-                
+                af = af / max(max(abs(af)));
+                % Even case
             else
-                
-                af = 0;
-                for n = 1:length(coefficients)
-                    af = af + coefficients(n).*cos((n-1)*psi);
+                coefficients = circshift(coefficients, offset);
+                af = zeros(1, numel(obj.theta));
+                for i = 1:offset
+                    af = af + coefficients(i) * cos((i - 0.5) * psi);
                 end
                 af = af / max(max(abs(af)));
             end
@@ -151,32 +140,23 @@ classdef linear_array
             % Calculate the offset for even/odd
             offset = floor(obj.number_of_elements / 2);
             
-            if ~strcmp(obj.window_type, 'Tschebyscheff')
-                
-                % Odd case
-                if mod(obj.number_of_elements,2) == 1
-                    coefficients = circshift(coefficients, offset + 1);
-                    coefficients(1) = 0.5 * coefficients(1);
-                    af = zeros(1, numel(obj.theta));
-                    for i = 1:offset + 1
-                        af = af + coefficients(i) * cos((i-1) * psi);
-                    end
-                    % Even case
-                else
-                    coefficients = circshift(coefficients, offset);
-                    af = zeros(numel(obj.theta), 1);
-                    for i = 1:offset
-                        af = af + coefficients(i) * cos((i - 0.5) * psi);
-                    end
+            % Odd case
+            if mod(obj.number_of_elements,2) == 1
+                coefficients = circshift(coefficients, offset + 1);
+                coefficients(1) = 0.5 * coefficients(1);
+                af = zeros(1, numel(obj.theta));
+                for i = 1:offset + 1
+                    af = af + coefficients(i) * cos((i-1) * psi);
                 end
-                
+                % Even case
             else
-                
-                af = 0;
-                for n = 1:length(coefficients)
-                    af = af + coefficients(n).*cos((n-1)*psi);
+                coefficients = circshift(coefficients, offset);
+                af = zeros(1, numel(obj.theta));
+                for i = 1:offset
+                    af = af + coefficients(i) * cos((i - 0.5) * psi);
                 end
             end
+            
             
         end
     end
