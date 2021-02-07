@@ -27,10 +27,10 @@ if strcmp(cfar_type, 'Cell Averaging')
     
     for ix = (window_cells+1):(total_cells - window_cells)
         lead_start = ix - window_cells;
-        lead_stop = ix - guard_cells;
+        lead_stop = ix - ( guard_cells + 1);
         lead_avg = sum(signal(lead_start:lead_stop)) / reference_cells;
         
-        trail_start = ix + guard_cells;
+        trail_start = ix + ( guard_cells + 1);
         trail_stop = ix + window_cells;
         trail_avg = sum(signal(trail_start:trail_stop)) / reference_cells;
         
@@ -41,10 +41,10 @@ elseif strcmp(cfar_type, 'Cell Averaging Greatest Of')
     
     for ix = (window_cells+1):(total_cells - window_cells)
         lead_start = ix - window_cells;
-        lead_stop = ix - guard_cells;
+        lead_stop = ix - ( guard_cells + 1);
         lead_avg = sum(signal(lead_start:lead_stop)) / reference_cells;
         
-        trail_start = ix + guard_cells;
+        trail_start = ix + ( guard_cells + 1);
         trail_stop = ix + window_cells;
         trail_avg = sum(signal(trail_start:trail_stop)) / reference_cells;
         
@@ -55,10 +55,10 @@ elseif strcmp(cfar_type, 'Cell Averaging Smallest Of')
     
     for ix = (window_cells+1):(total_cells - window_cells)
         lead_start = ix - window_cells;
-        lead_stop = ix - guard_cells;
+        lead_stop = ix - ( guard_cells + 1);
         lead_avg = sum(signal(lead_start:lead_stop)) / reference_cells;
         
-        trail_start = ix + guard_cells;
+        trail_start = ix + ( guard_cells + 1);
         trail_stop = ix + window_cells;
         trail_avg = sum(signal(trail_start:trail_stop)) / reference_cells;
         
@@ -69,9 +69,9 @@ elseif strcmp(cfar_type, 'Ordered Statistic')
     
     for ix = (window_cells+1):(total_cells - window_cells)
         lead_start = ix - window_cells;
-        lead_stop = ix - guard_cells;
+        lead_stop = ix - ( guard_cells + 1);
         
-        trail_start = ix + guard_cells;
+        trail_start = ix + ( guard_cells + 1);
         trail_stop = ix + window_cells;
         
         x1 = signal(lead_start:lead_stop);
