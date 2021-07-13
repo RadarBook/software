@@ -42,7 +42,7 @@ observation_angle = linspace(0, pi, 721);
 
 for i = 1:numel(observation_angle)
     [et(i), ~] = stratified_sphere(frequency, observation_angle(i), 0, An, Bn);
-    [~, ep(i)] = stratified_sphere(frequency, observation_angle(i), 90, An, Bn);
+    [~, ep(i)] = stratified_sphere(frequency, observation_angle(i), 0.5 * pi, An, Bn);
 end        
 
 % Display the results

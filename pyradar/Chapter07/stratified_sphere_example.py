@@ -90,7 +90,7 @@ class StratSphere(QMainWindow, Ui_MainWindow):
         An, Bn = coefficients(frequency, eps, mu, ra, number_of_modes, pec_b)
 
         et = array([radar_cross_section(frequency, oa, 0, An, Bn) for oa in observation_angle])
-        ep = array([radar_cross_section(frequency, oa, 90, An, Bn) for oa in observation_angle])
+        ep = array([radar_cross_section(frequency, oa, 0.5 * pi, An, Bn) for oa in observation_angle])
 
         # Clear the axes for the updated plot
         self.axes1.clear()
