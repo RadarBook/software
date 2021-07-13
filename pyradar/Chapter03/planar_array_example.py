@@ -93,7 +93,7 @@ class PlanarArray(QMainWindow, Ui_MainWindow):
         if self.plot_type.currentIndex() == 0:
 
             # Display the results
-            im = self.axes1.pcolor(psi_x, psi_y, abs(af), cmap="jet")
+            im = self.axes1.pcolor(psi_x, psi_y, abs(af), cmap="jet", shading = 'auto')
             self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
             self.cbar.set_label("Normalized Electric Field (V/m)", size=10)
 

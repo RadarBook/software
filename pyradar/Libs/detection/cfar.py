@@ -11,6 +11,8 @@ and can not be copied and/or distributed without the express permission of Artec
 """
 from numpy import zeros, array, arange, sort, log10
 
+import sys
+
 
 def cfar(signal, guard_cells, reference_cells, bias, cfar_type):
     """
@@ -92,4 +94,4 @@ def cfar(signal, guard_cells, reference_cells, bias, cfar_type):
 
             cfar_threshold[ix] = z[int(1.5 * reference_cells)]
 
-    return 10.0 * log10(cfar_threshold) + bias
+    return 10.0 * log10(cfar_threshold + sys.float_info.min) + bias

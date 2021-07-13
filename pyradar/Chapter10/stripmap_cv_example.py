@@ -243,7 +243,7 @@ class Stripmap(QMainWindow, Ui_MainWindow):
 
         # Display the results
         bpi = abs(self.bp_image) / amax(abs(self.bp_image))
-        im = self.axes1.pcolor(self.xi, self.yi, 20.0 * log10(bpi), cmap='jet', vmin=-dynamic_range, vmax=0)
+        im = self.axes1.pcolor(self.xi, self.yi, 20.0 * log10(bpi), cmap='jet', vmin=-dynamic_range, vmax=0, shading = 'auto')
         self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
         self.cbar.set_label("(dB)", size=10)
 

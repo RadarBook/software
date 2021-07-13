@@ -18,19 +18,19 @@ y_target = [-3, 0, 3]; % meters
 rcs = [10, 10, 20]; % m^2
 x_span = 20; % meters
 y_span = 20; % meters
-nx = 200; % Number of bins in x-direction
-ny = 200; % Number of bins in y-direction
+nx = 400; % Number of bins in x-direction
+ny = 400; % Number of bins in y-direction
 start_frequency = 5e9; % Staring frequency (Hz)
 bandwidth = 300e6; % Operating bandwidth (Hz)
 az_start = -3; % degrees
 az_end = 3; % degrees
 window_type = 'None';
-dynamic_range = 50; % dB
+dynamic_range = 32; % dB
 
 % Set up the azimuth space
 r = sqrt(x_span ^ 2 + y_span ^ 2);
 da = c / (2.0 * r * start_frequency);
-na = round((az_end - az_start) / da);
+na = round(deg2rad(az_end - az_start) / da);
 az = linspace(az_start, az_end, na);
 
 % Set up the frequency space

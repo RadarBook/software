@@ -14,7 +14,7 @@ from Chapter10.ui.BackProjection_ui import Ui_MainWindow
 from numpy import linspace, meshgrid, log10, sqrt, radians, sin, cos, zeros_like, zeros, dot, exp, amax, ones, outer
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from Libs.sar import backprojection
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
@@ -91,7 +91,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         # Set up the azimuth space
         r = sqrt(x_span ** 2 + y_span ** 2)
         da = c / (2.0 * r * start_frequency)
-        na = int((az_end - az_start) / da)
+        na = int(radians(az_end - az_start) / da)
         az = linspace(az_start, az_end, na)
 
         # Set up the frequency space
@@ -129,8 +129,8 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         window_type = self.window_type.currentText()
 
         if window_type == 'Hanning':
-            h1 = hanning(nf, True)
-            h2 = hanning(na, True)
+            h1 = hann(nf, True)
+            h2 = hann(na, True)
             coefficients = sqrt(outer(h1, h2))
         elif window_type == 'Hamming':
             h1 = hamming(nf, True)
@@ -163,7 +163,7 @@ class BackProjection(QMainWindow, Ui_MainWindow):
 
         # Display the results
         bpi = abs(self.bp_image) / amax(abs(self.bp_image))
-        im = self.axes1.pcolor(self.xi, self.yi, 20.0 * log10(bpi), cmap='jet', vmin=-dynamic_range, vmax=0)
+        im = self.axes1.pcolor(self.xi, self.yi, 20.0 * log10(bpi), cmap='jet', vmin=-dynamic_range, vmax=0, shading = 'auto')
         self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
         self.cbar.set_label("(dB)", size=10)
 

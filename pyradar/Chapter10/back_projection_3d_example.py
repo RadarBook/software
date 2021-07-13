@@ -104,13 +104,13 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         # Set up the azimuth space
         r = sqrt(x_span ** 2 + y_span ** 2)
         da = c / (2.0 * r * start_frequency)
-        na = int((az_end - az_start) / da)
+        na = int(radians(az_end - az_start) / da)
         az = linspace(az_start, az_end, na)
 
         # Set up the elevation space
         r = sqrt(x_span ** 2 + z_span ** 2)
         de = c / (2.0 * r * start_frequency)
-        ne = int((el_end - el_start) / de)
+        ne = int(radians(el_end - el_start) / de)
         el = linspace(el_start, el_end, ne)
 
         # Set up the angular grid

@@ -117,7 +117,7 @@ class RectangularAperture(QMainWindow, Ui_MainWindow):
         if self.plot_type.currentIndex() == 0:
 
             # Create the color plot
-            im = self.axes1.pcolor(uu, vv, e_mag, cmap="jet")
+            im = self.axes1.pcolor(uu, vv, e_mag, cmap="jet", shading = 'auto')
             self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
             self.cbar.set_label("Normalized Electric Field(V/m)")
 

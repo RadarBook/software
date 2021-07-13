@@ -43,7 +43,7 @@ antenna_width = 2;
 window_type = 'None';
 
 % Set the dynamic range of the image (dB)
-dynamic_range = 50;
+dynamic_range = 40;
 
 % Set up the image space
 xi = linspace(-0.5 * x_span + x_center, 0.5 * x_span + x_center, nx);

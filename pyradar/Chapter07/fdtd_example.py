@@ -601,7 +601,7 @@ class FDTD(QMainWindow, Ui_MainWindow):
         x_grid, y_grid = meshgrid(x, y)
 
         # Display the results
-        im = self.axes1.pcolor(x_grid, y_grid, abs(etotal), cmap="jet", vmin=0, vmax=self.gaussian_pulse_amplitude)
+        im = self.axes1.pcolor(x_grid, y_grid, abs(etotal), cmap="jet", vmin=0, vmax=self.gaussian_pulse_amplitude, shading = 'auto')
         self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
         self.cbar.set_label('Electric Field (V/m)', size=10)
 

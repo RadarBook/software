@@ -70,7 +70,7 @@ class BeamSpreading(QMainWindow, Ui_MainWindow):
         self.axes1.clear()
 
         # Display the results
-        im = self.axes1.pcolor(theta, height, beam_spreading_loss, cmap="jet")
+        im = self.axes1.pcolor(theta, height, beam_spreading_loss, cmap="jet", shading = 'auto')
         self.cbar = self.fig.colorbar(im, ax=self.axes1, orientation='vertical')
         self.cbar.set_label("(dB)")
 
