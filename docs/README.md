@@ -25,3 +25,6 @@ Where **mypath** is the path to the folder 'pyradar'.
 ## MATLAB®
 
 The MATLAB scripts associated with this  text  were  developed  with  R2018a  and  do  not  require  any  additional  toolboxes. The folder structure for the MATLAB and Python scripts is identical.  In  order  to  run  the  MATLAB scripts  provided  with  this  text,  the  library  folder  and subfolders must be added to the MATLAB path. Once these folders have been added, the MATLAB scripts may be executed from the editor or from the command window by typing the name of the script.  For more information on MATLAB visit [MathWorks®](https://www.mathworks.com/).
+
+## DATA
+Data for experiments are hosted by AFRL's Sendor Data Management System. See [https://www.sdms.afrl.af.mil/index.php](https://www.sdms.afrl.af.mil/index.php) for access.
