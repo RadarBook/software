@@ -62,7 +62,7 @@ def lfm_pulse(time_delay, doppler_frequency, pulse_width, bandwidth):
     :return: The ambiguity function for an LFM pulse.
     """
     ambiguity = abs((1.0 - abs(time_delay) / pulse_width) *
-                    sinc(pi * pulse_width * (bandwidth / pulse_width * time_delay + doppler_frequency) *
+                    sinc(pulse_width * (bandwidth / pulse_width * time_delay + doppler_frequency) *
                     (1.0 - abs(time_delay) / pulse_width)))**2
 
     ambiguity[abs(time_delay) > pulse_width] = 0
