@@ -14,7 +14,7 @@ from Chapter10.ui.BackProjection3pt_ui import Ui_MainWindow
 from numpy import linspace, meshgrid, array, sqrt, radians, sin, cos, zeros, dot, exp, amax, ones
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from numpy import max, min
 from Libs.sar import backprojection
 from mpl_toolkits.mplot3d import Axes3D
@@ -150,9 +150,9 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         coefficients = ones([nf, ne, na])
 
         if window_type == 'Hanning':
-            h1 = hanning(nf, True)
-            h2 = hanning(na, True)
-            h3 = hanning(ne, True)
+            h1 = hann(nf, True)
+            h2 = hann(na, True)
+            h3 = hann(ne, True)
 
             for i in range(nf):
                 for j in range(ne):

@@ -14,7 +14,7 @@ from Chapter10.ui.BackProjectionCV_ui import Ui_MainWindow
 from numpy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, ones, squeeze, outer
 from scipy.io import loadmat
 from scipy.fftpack import next_fast_len
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from pathlib import Path
 from Libs.sar import backprojection
 from PyQt5.QtWidgets import QApplication, QMainWindow
@@ -154,8 +154,8 @@ class BackProjection(QMainWindow, Ui_MainWindow):
         window_type = self.window_type.currentText()
 
         if window_type == 'Hanning':
-            h1 = hanning(nf, True)
-            h2 = hanning(na, True)
+            h1 = hann(nf, True)
+            h2 = hann(na, True)
             coefficients = sqrt(outer(h1, h2))
         elif window_type == 'Hamming':
             h1 = hamming(nf, True)
