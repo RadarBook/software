@@ -16,7 +16,7 @@ from numpy import linspace, meshgrid, log10, sqrt, radians, zeros_like, amax, on
 from scipy.constants import speed_of_light as c, pi
 from scipy.io import loadmat
 from scipy.fftpack import next_fast_len
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from pathlib import Path
 from Libs.sar import backprojection
 from Libs.antenna.array.linear_array_un import array_factor
@@ -209,8 +209,8 @@ class Stripmap(QMainWindow, Ui_MainWindow):
         window_type = self.window_type.currentText()
 
         if window_type == 'Hanning':
-            h1 = hanning(number_of_frequencies, True)
-            h2 = hanning(number_of_samples, True)
+            h1 = hann(number_of_frequencies, True)
+            h2 = hann(number_of_samples, True)
             coefficients = sqrt(outer(h1, h2))
         elif window_type == 'Hamming':
             h1 = hamming(number_of_frequencies, True)

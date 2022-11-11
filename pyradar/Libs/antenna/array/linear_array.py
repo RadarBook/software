@@ -13,7 +13,7 @@ import warnings
 from scipy.constants import c, pi
 from numpy import cos, floor, roll, amax, ones
 from scipy.special import binom
-from scipy.signal.windows import chebwin, hanning, hamming, blackmanharris, kaiser
+from scipy.signal.windows import chebwin, hann, hamming, blackmanharris, kaiser
 
 
 def array_factor(number_of_elements, scan_angle, element_spacing, frequency, theta, window_type, side_lobe_level):
@@ -47,7 +47,7 @@ def array_factor(number_of_elements, scan_angle, element_spacing, frequency, the
     elif window_type == 'Blackman-Harris':
         coefficients = blackmanharris(number_of_elements, True)
     elif window_type == 'Hanning':
-        coefficients = hanning(number_of_elements, True)
+        coefficients = hann(number_of_elements, True)
     elif window_type == 'Hamming':
         coefficients = hamming(number_of_elements, True)
 

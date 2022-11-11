@@ -12,7 +12,7 @@ and can not be copied and/or distributed without the express permission of Artec
 import sys
 from Chapter10.ui.BackProjectionBH_ui import Ui_MainWindow
 from numpy import linspace, meshgrid, array, radians, amax, ones, squeeze, max, min
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from Libs.sar import backprojection
 from scipy.io import loadmat
 from mpl_toolkits.mplot3d import Axes3D
@@ -132,9 +132,9 @@ class BackProjection(QMainWindow, Ui_MainWindow):
 
                 # Get the window
                 if window_type == 'Hanning':
-                    h1 = hanning(nf, True)
-                    h2 = hanning(na, True)
-                    h3 = hanning(ne, True)
+                    h1 = hann(nf, True)
+                    h2 = hann(na, True)
+                    h3 = hann(ne, True)
 
                     for i in range(nf):
                         for j in range(ne):

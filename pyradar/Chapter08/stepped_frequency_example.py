@@ -14,7 +14,7 @@ from Chapter08.ui.SteppedFrequency_ui import Ui_MainWindow
 from numpy import linspace, log10, zeros, exp, sqrt, finfo, ones
 from scipy.fftpack import ifft, next_fast_len
 from scipy.constants import pi, c
-from scipy.signal.windows import hanning, hamming, blackmanharris, kaiser
+from scipy.signal.windows import hann, hamming, blackmanharris, kaiser
 from PyQt5.QtWidgets import QApplication, QMainWindow
 from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
@@ -75,7 +75,7 @@ class SteppedFrequency(QMainWindow, Ui_MainWindow):
         elif window_type == 'Blackman-Harris':
             coefficients = blackmanharris(number_of_steps, True)
         elif window_type == 'Hanning':
-            coefficients = hanning(number_of_steps, True)
+            coefficients = hann(number_of_steps, True)
         elif window_type == 'Hamming':
             coefficients = hamming(number_of_steps, True)
         elif window_type == 'Rectangular':

@@ -15,7 +15,7 @@ from numpy import linspace, meshgrid, log10, sqrt, ceil, arctan, cos, tan, zeros
     outer, finfo
 from scipy.fftpack import next_fast_len
 from scipy.constants import c, pi
-from scipy.signal.windows import hanning, hamming
+from scipy.signal.windows import hann, hamming
 from Libs.sar import backprojection
 from Libs.antenna.array.linear_array_un import array_factor
 from PyQt5.QtWidgets import QApplication, QMainWindow
@@ -165,8 +165,8 @@ class Stripmap(QMainWindow, Ui_MainWindow):
         window_type = self.window_type.currentText()
 
         if window_type == 'Hanning':
-            h1 = hanning(number_of_frequencies, True)
-            h2 = hanning(number_of_samples, True)
+            h1 = hann(number_of_frequencies, True)
+            h2 = hann(number_of_samples, True)
             coefficients = sqrt(outer(h1, h2))
         elif window_type == 'Hamming':
             h1 = hamming(number_of_frequencies, True)
