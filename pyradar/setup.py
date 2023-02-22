@@ -7,5 +7,5 @@ setup(name='RadarBook',
 			author='Lee A. Harrison',
 			author_email='pythonradarbook@gmail.com',
 			license='',
-			packages=['RadarBook'],
+      			packages=['Chapter01','Chapter02','Chapter03','Chapter04','Chapter05','Chapter06','Chapter07','Chapter08','Chapter09','Chapter10','Chapter11','Libs'],
 			zip_safe=False)
