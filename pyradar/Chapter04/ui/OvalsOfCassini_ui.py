@@ -326,7 +326,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Ovals of Cassini"))
         self.label_6.setText(_translate("MainWindow", "Input"))
-        self.label_5.setText(_translate("MainWindow", "Separation Distance (m)"))
+        self.label_5.setText(_translate("MainWindow", "Separation Distance (km)"))
         self.separation_distance.setText(_translate("MainWindow", "100"))
         self.label_2.setText(_translate("MainWindow", "System Temperature (K)"))
         self.system_temperature.setText(_translate("MainWindow", "290"))
