@@ -60,14 +60,14 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
         separation_distance = float(self.separation_distance.text())
         system_temperature = float(self.system_temperature.text())
         bandwidth = float(self.bandwidth.text())
-        noise_figure = float(self.noise_figure.text())
-        transmit_losses = float(self.transmit_losses.text())
-        receive_losses = float(self.receive_losses.text())
+        noise_figure = 10 ** (float(self.noise_figure.text()) / 10)
+        transmit_losses = 10 ** (float(self.transmit_losses.text()) / 10)
+        receive_losses = 10 ** (float(self.receive_losses.text()) / 10)
         peak_power = float(self.peak_power.text())
-        transmit_antenna_gain = float(self.transmit_antenna_gain.text())
-        receive_antenna_gain = float(self.receive_antenna_gain.text())
+        transmit_antenna_gain = 10 ** (float(self.transmit_antenna_gain.text()) / 10)
+        receive_antenna_gain = 10 ** (float(self.receive_antenna_gain.text()) / 10)
         frequency = float(self.frequency.text())
-        bistatic_target_rcs = float(self.bistatic_target_rcs.text())
+        bistatic_target_rcs = 10 ** (float(self.bistatic_target_rcs.text()) / 10)
 
         # Number of points for plotting ovals
         number_of_points = 100000
@@ -83,9 +83,8 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
 
         # Calculate the bistatic radar range factor
         bistatic_range_factor = (peak_power * transmit_antenna_gain * receive_antenna_gain * wavelength ** 2 *
-                                 10.0 ** (bistatic_target_rcs / 10.0)) / ((4.0 * pi) ** 3 * k * system_temperature *
-                                                                          bandwidth * 10.0 ** (noise_figure / 10.0)
-                                                                          * transmit_losses * receive_losses)
+                                 bistatic_target_rcs) / ((4.0 * pi) ** 3 * k * system_temperature * bandwidth *
+                                                         noise_figure * transmit_losses * receive_losses)
 
         # Full angle sweep
         t = linspace(0, 2.0 * pi, number_of_points)
@@ -123,8 +122,8 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
 
                 # Plot both parts of the curve
                 label_text = "SNR = {:.1f}".format(s)
-                self.axes1.plot(r1[i1] * cos(t[i1]), r1[i1] * sin(t[i1]), 'k.', label=label_text)
-                self.axes1.plot(r2[i2] * cos(t[i2]), r2[i2] * sin(t[i2]), 'k.')
+                self.axes1.plot(r1[i1] * cos(t[i1]) / 1e3, r1[i1] * sin(t[i1]) / 1e3, 'k.', label=label_text)
+                self.axes1.plot(r2[i2] * cos(t[i2]) / 1e3, r2[i2] * sin(t[i2]) / 1e3, 'k.')
 
             else:
 
@@ -133,11 +132,11 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
 
                 # Plot the continuous parts
                 label_text = "SNR = {:.1f}".format(s)
-                self.axes1.plot(r * cos(t), r * sin(t), '.', label=label_text)
+                self.axes1.plot(r * cos(t) / 1e3, r * sin(t) / 1e3, '.', label=label_text)
 
             # Add the text for Tx/Rx locations
-            self.axes1.text(-a, 0, 'Tx')
-            self.axes1.text(a, 0, 'Rx')
+            self.axes1.text(-a / 1e3, 0, 'Tx')
+            self.axes1.text(a / 1e3, 0, 'Rx')
 
             # Set the plot title and labels
             self.axes1.set_title('Ovals of Cassini', size=14)
