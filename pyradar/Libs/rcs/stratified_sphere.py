@@ -73,8 +73,8 @@ def radar_cross_section(frequency, theta, phi, An, Bn):
 
         p = p_lm[i_mode]
 
-    rcs_th = s1 * cos(radians(phi)) * sqrt(4.0 * pi) / k
-    rcs_ph = -s2 * sin(radians(phi)) * sqrt(4.0 * pi) / k
+    rcs_th = s1 * cos(phi) * sqrt(4.0 * pi) / k
+    rcs_ph = -s2 * sin(phi) * sqrt(4.0 * pi) / k
 
     return rcs_th, rcs_ph
 
