@@ -21,9 +21,9 @@ from matplotlib.figure import Figure
 
 
 class HertzianDipole(QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, parent=None):
 
-        super(self.__class__, self).__init__()
+        super(self.__class__, self).__init__(parent)
 
         self.setupUi(self)
 
@@ -229,8 +229,8 @@ class HertzianDipole(QMainWindow, Ui_MainWindow):
         self.total_radiated_power.setText('{:.3e}'.format(total_radiated_power))
 
 
-def start():
-    form = HertzianDipole()        # Set the form
+def start(parent):
+    form = HertzianDipole(parent)        # Set the form
     form.show()                    # Show the form
 
 

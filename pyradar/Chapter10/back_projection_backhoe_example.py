@@ -23,9 +23,9 @@ from matplotlib.figure import Figure
 
 
 class BackProjection(QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, parent=None):
 
-        super(self.__class__, self).__init__()
+        super(self.__class__, self).__init__(parent)
 
         self.setupUi(self)
 
@@ -202,8 +202,8 @@ def set_equal(ax):
     ax.auto_scale_xyz(*[[min(scaling), max(scaling)]]*3)
 
 
-def start():
-    form = BackProjection()       # Set the form
+def start(parent):
+    form = BackProjection(parent)       # Set the form
     form.show()                   # Show the form
 
 

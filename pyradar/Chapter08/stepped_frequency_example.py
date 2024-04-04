@@ -22,9 +22,9 @@ from matplotlib.figure import Figure
 
 
 class SteppedFrequency(QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, parent=None):
 
-        super(self.__class__, self).__init__()
+        super(self.__class__, self).__init__(parent)
 
         self.setupUi(self)
 
@@ -119,8 +119,8 @@ class SteppedFrequency(QMainWindow, Ui_MainWindow):
         self.my_canvas.draw()
 
 
-def start():
-    form = SteppedFrequency()  # Set the form
+def start(parent):
+    form = SteppedFrequency(parent)  # Set the form
     form.show()                # Show the form
 
 
