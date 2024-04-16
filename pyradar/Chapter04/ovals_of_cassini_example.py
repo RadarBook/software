@@ -18,6 +18,8 @@ from matplotlib.backends.qt_compat import QtCore
 from matplotlib.backends.backend_qt5agg import (FigureCanvas, NavigationToolbar2QT as NavigationToolbar)
 from matplotlib.figure import Figure
 
+import warnings
+warnings.filterwarnings('ignore')
 
 class OvalsOfCassini(QMainWindow, Ui_MainWindow):
     def __init__(self, parent=None):
@@ -57,7 +59,7 @@ class OvalsOfCassini(QMainWindow, Ui_MainWindow):
         :return:
         """
         # Get the values from the form
-        separation_distance = float(self.separation_distance.text())
+        separation_distance = float(self.separation_distance.text()) * 1e3
         system_temperature = float(self.system_temperature.text())
         bandwidth = float(self.bandwidth.text())
         noise_figure = 10 ** (float(self.noise_figure.text()) / 10)

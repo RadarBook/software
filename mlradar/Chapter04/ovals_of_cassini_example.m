@@ -9,7 +9,7 @@
 clear, clc
 
 % Number of points in the curve
-N = 1e6;
+N = 100000;
 
 % Boltzmann's constant
 k = 1.38064852e-23;
@@ -18,33 +18,33 @@ k = 1.38064852e-23;
 c = 299792458;
 
 % Receiver noise figure (dB)
-noise_figure = 6;
+noise_figure = lin(6);
 
 % System temperature (K)
 system_temperature = 290;
 
 % Separation distance (m)
-D = 100;
+D = 60e3;
 
 % Peak transmit power (W)
-peak_power = 50.0e3;
+peak_power = 100.0e3;
 
 % Tx/Rx antenna gain (dB)
-transmit_antenna_gain = 20.0;
-receive_antenna_gain = 10.0;
+transmit_antenna_gain = lin(30.0);
+receive_antenna_gain = lin(30.0);
 
 % Operating frequency (Hz)
 frequency = 1.0e9;
 
 % Bistatic target radar cross section (dBsm)
-bistatic_target_rcs = 10.0;
+bistatic_target_rcs = lin(10.0);
 
 % Receiver bandwidth (Hz)
 bandwidth = 10.0e6;
 
 % Tx/Rx losses (dB)
-transmit_losses = 4;
-receive_losses = 3;
+transmit_losses = lin(4);
+receive_losses = lin(3);
 
 % Calculate the wavelength (m)
 wavelength = 3e8 / frequency;
@@ -54,7 +54,7 @@ wavelength = 3e8 / frequency;
 a = D * 0.5;
 
 bistatic_range_factor = (peak_power * transmit_antenna_gain * receive_antenna_gain * wavelength^2 * bistatic_target_rcs)/...
-    ((4.0 * pi)^3 * k * system_temperature * bandwidth * lin(noise_figure) * transmit_losses * receive_losses);
+    ((4.0 * pi)^3 * k * system_temperature * bandwidth * noise_figure * transmit_losses * receive_losses);
 
 % Full angle sweep
 t = linspace(0, 2*pi, N);
@@ -89,14 +89,14 @@ for i = 1:length(SNR)
         ir2 = imag(R2) == 0;
         
         % Plot both parts of the curve
-        plot(R1(ir1).*cos(t(ir1)), R1(ir1).*sin(t(ir1)), 'k.');
-        plot(R2(ir2).*cos(t(ir2)), R2(ir2).*sin(t(ir2)), 'k.');        
+        plot(R1(ir1).*cos(t(ir1))/1e3, R1(ir1).*sin(t(ir1))/1e3, 'k.');
+        plot(R2(ir2).*cos(t(ir2))/1e3, R2(ir2).*sin(t(ir2))/1e3, 'k.');        
         
     else
         
         % Calculate the range for continuous curves
         R = sqrt(a^2 * cos(2*t) + sqrt(b^4 - a^4 .* sin(2*t).^2));
-        plot(real(R.*cos(t)), real(R.*sin(t)), '.');
+        plot(real(R.*cos(t))/1e3, real(R.*sin(t))/1e3, '.');
         
     end
     
@@ -111,8 +111,8 @@ xlabel('Range (km)');
 ylabel('Range (km)');
 
 % Add the Tx/Rx locations
-text(-a, 0, 'Tx');
-text( a, 0, 'Rx');
+text(-a/1e3, 0, 'Tx');
+text( a/1e3, 0, 'Rx');
 
 % Turn on the grid
 grid on;
