@@ -21,9 +21,9 @@ from matplotlib.figure import Figure
 
 
 class ReflectionTransmission(QMainWindow, Ui_MainWindow):
-    def __init__(self):
+    def __init__(self, parent=None):
 
-        super(self.__class__, self).__init__()
+        super(self.__class__, self).__init__(parent)
 
         self.setupUi(self)
 
@@ -131,8 +131,8 @@ class ReflectionTransmission(QMainWindow, Ui_MainWindow):
         self.my_canvas.draw()
 
 
-def start():
-    form = ReflectionTransmission()  # Set the form
+def start(parent):
+    form = ReflectionTransmission(parent)  # Set the form
     form.show()                      # Show the form
 
 

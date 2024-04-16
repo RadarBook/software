@@ -17,7 +17,7 @@ from PyQt5.QtWidgets import QApplication, QMainWindow
 
 
 class ApparentRange(QMainWindow, Ui_MainWindow):
-    def __init__(self, parent):
+    def __init__(self, parent=None):
 
         super(self.__class__, self).__init__(parent)
 
@@ -52,14 +52,14 @@ class ApparentRange(QMainWindow, Ui_MainWindow):
         self.apparent_range.setText('{:.4f}'.format(apparent_range/1.e3))
 
 
-def start(self):
-    form = ApparentRange(self)  # Set the form
+def start(parent):
+    form = ApparentRange(parent)  # Set the form
     form.show()                 # Show the form
 
 
 def main():
     app = QApplication(sys.argv)    # A new instance of QApplication
-    form = ApparentRange(None)      # Set the form
+    form = ApparentRange()      # Set the form
     form.show()                     # Show the form
     app.exec_()                     # Execute the app
 
